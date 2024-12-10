@@ -5,17 +5,17 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Gianella Meringolo</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        Gianella Meringolo
         </h1>
 
         <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+        Licenciada en TI- Web developer- ux/ui designer
         </p>
 
         <div className={styles.grid}>

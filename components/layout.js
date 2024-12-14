@@ -1,69 +1,77 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import styles from './layout.module.css';
-import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import Navbar from '../components/navbar';
+import  { Mirza, Kavivanar, Kite_One, Inter_Tight, Inspiration} from 'next/font/google'
 
-const name = 'Gianella';
-export const siteTitle = 'Next.js Sample Website'
+const mirza = Mirza({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: '--font-mirza',
+  display: 'swap',
+});
+
+const kite_one = Kite_One({
+    subsets: ['latin'],
+    weight: ['400'],
+    variable: '--font-kite-one',
+    display: 'swap',
+  });
+
+const kavivanar = Kavivanar({
+    subsets: ['latin'],
+    weight: ['400'],
+    variable: '--font-kavivanar',
+    display: 'swap',
+  });
+
+  const inter_tight = Inter_Tight({
+    subsets: ['latin'],
+    weight: ['300'],
+    variable: '--font-inter-tight',
+    display: 'swap',
+  });
+  const inspiration = Inspiration({
+    subsets: ['latin'],
+    weight: ['400'],
+    variable: '--font-inspiration',
+    display: 'swap',
+  });
+
+const name = 'GIANELLA MERINGOLO';
+const career = 'Licenciada en TI- Web developer- UX/UI designer';
+export const siteTitle = 'Gianella Meringolo'
 
 export default function Layout({ children, home }) {
     return (
-        <div className={styles.container}>
+        <div className={`${inter_tight.variable} ${mirza.variable} ${kite_one.variable} ${kavivanar.variable} ${inspiration.variable}`}>
             <Head>
                 <link rel='icon' href='/favicon.ico' />
                 <meta
                     name="description"
-                    content="Learn how to build a personal website using Next.js"
-                />
-                <meta
-                    property="og:image"
-                    content={`https://og-image.vercel.app/${encodeURI(
-                        siteTitle,
-                    )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+                    content="Gianella Meringolo website"
                 />
                 <meta name="og:title" content={siteTitle} />
-                <meta name="twitter:card" content="summary_large_image" />
+
             </Head>
+    
             <header className={styles.header}>
                 {home ? (
                     <>
-                        <Image
-                            priority
-                            src="/img/perfil.jpeg"
-                            className={utilStyles.borderCircle}
-                            height={144}
-                            width={144}
-                            alt=""
-                        />
-                        <h1 className={utilStyles.heading2Xl}>{name}</h1>
+                        <h1>{name}</h1>
+                        <h3>{career}</h3>
+                        <Navbar/>
                     </>
                 ) : (
                     <>
-                        <Link href="/">
-                            <Image
-                                priority
-                                src="/img/perfil.jpeg"
-                                className={utilStyles.borderCircle}
-                                height={108}
-                                width={108}
-                                alt=""
-                            />
-                        </Link>
-                        <h2 className={utilStyles.headingLg}>
-                            <Link href="/" className={utilStyles.colorInherit}>
-                                {name}
-                            </Link>
-                        </h2>
+                        <h1 className={utilStyles.headingTitle}>{name}</h1>
+                        <h3 className={utilStyles.headingTitle}>{career}</h3>
+
                     </>
                 )}
             </header>
             <main>{children}</main>
-            {!home && (
-                <div className={styles.backToHome}>
-                    <Link href="/">← Back to home</Link>
-                </div>
-            )}
         </div>
+
     );
 }

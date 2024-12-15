@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import styles from './navbar.module.css';
+import Link from 'next/link';
 
 export default function Navbar() {
     return (
@@ -10,24 +10,24 @@ export default function Navbar() {
             <nav>
                 <ul>
                     <li>
-                        <a href="#sobre-mi" title="sobre mi">
+                        <Link href="/sobre_mi" title="sobre mi">
                             Sobre mi
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#cv" title="cv">
+                        <Link href="/cv" title="cv">
                             CV
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#freelance" title="freelance">
+                        <Link href="/freelance" title="freelance">
                             Freelance
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#voluntariado" title="voluntariado">
+                        <Link href="/voluntariado" title="voluntariado">
                             Voluntariado
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </nav>

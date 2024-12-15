@@ -1,13 +1,12 @@
 {
   "private": true,
   "scripts": {
-    "run": "npm run dev",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "@next/font": "^14.2.15",
+    "next/font": "^14.2.15",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"

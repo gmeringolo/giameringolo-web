@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from './layout.module.css';
+import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import Navbar from '../components/navbar';
 import  { Mirza, Kavivanar, Kite_One, Inter_Tight, Inspiration} from 'next/font/google'
@@ -60,12 +61,13 @@ export default function Layout({ children, home }) {
                     <>
                         <h1>{name}</h1>
                         <h3>{career}</h3>
-                        <Navbar/>
+
                     </>
                 ) : (
                     <>
-                        <h1 className={utilStyles.headingTitle}>{name}</h1>
-                        <h3 className={utilStyles.headingTitle}>{career}</h3>
+                        <h1>{name}</h1>
+                        <h3>{career}</h3>
+                        <Navbar/>
 
                     </>
                 )}

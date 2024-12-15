@@ -1,11 +1,12 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
-import sobreMi from '../public/homeSobreMi.png';
-import cv from '../public/homeCV.png';
-import freelance from '../public/homeFreelance.png';
-import voluntariado from '../public/homeVoluntariado.png';
+import sobreMi from '../public/img/homeSobreMi.png';
+import cv from '../public/img/homeCV.png';
+import freelance from '../public/img/homeFreelance.png';
+import voluntariado from '../public/img/homeVoluntariado.png';
 
 
 export default function Home() {
@@ -23,7 +24,7 @@ export default function Home() {
             width={160}
             alt=""
           />
-          <p className={utilStyles.homeTxt}>Sobre Mi</p>
+          <Link href="/sobre_mi" className={utilStyles.homeTxt}>Sobre Mi</Link>
         </div>
         <div className={utilStyles.homeImg}>
           <Image
@@ -33,7 +34,7 @@ export default function Home() {
             width={160}
             alt=""
           />
-          <p className={utilStyles.homeTxt}>CV</p>
+          <Link href="/cv" className={utilStyles.homeTxt}>CV</Link>
         </div>
         <div className={utilStyles.homeImg}>
           <Image
@@ -43,7 +44,7 @@ export default function Home() {
             width={160}
             alt=""
           />
-          <p className={utilStyles.homeTxt}>Freelance</p>
+          <Link href="/freelance" className={utilStyles.homeTxt}>Freelance</Link>
         </div>
         <div className={utilStyles.homeImg}>
           <Image
@@ -53,7 +54,7 @@ export default function Home() {
             width={160}
             alt=""
           />
-          <p className={utilStyles.homeTxt}>Voluntariado</p>
+          <Link href="/voluntariado"  className={utilStyles.homeTxt}>Voluntariado</Link>
         </div>
       </section>
     </Layout>

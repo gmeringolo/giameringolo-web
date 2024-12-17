@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -9,7 +10,15 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sora: ["Sora", "serif"],
+        mirza: ["Mirza", "serif"],
+        kite_one: ["Kite_One", "serif"],
+        kavivanar: ["Kavivanar", "serif"],
+        inter_tight: ["Inter_Tight", "serif"],
+      },
+    },
   },
   plugins: [],
 }

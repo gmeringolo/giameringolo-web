@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Kavivanar&family=Kite+One&family=Mirza:wght@400;500;600;700&family=Sora:wght@100..800&display=swap');
+
+@font-face {
+  font-family: "Mirza";
+  src: url("../public/fonts/Mirza-Regular.ttf");
+}
+@font-face {
+  font-family: "Kite_One";
+  src: url("../public/fonts/KiteOne-Regular.ttf");
+}
+@font-face {
+  font-family: "Kavivanar";
+  src: url("../public/fonts/Kavivanar-Regular.ttf");
+}
+@font-face {
+  font-family: "Inter_Tight";
+  src: url("../public/fonts/InterTight-Light.ttf");
+}
+@font-face {
+  font-family: "Inspiration";
+  src: url("../public/fonts/Inspiration-Regular.ttf");
+}
+
+
 html,
 body {
   padding: 0;
@@ -17,13 +41,13 @@ body {
 }
 
 h1{
-  font-family: var(--font-mirza);
+  font-family: mirza;
   font-size: 50px;
   margin-bottom: 0px;
 }
 
 h3{
-  font-family: var(--font-kite-one);
+  font-family: kite_one;
   font-size: 18px;
   margin-top: 0px;
 }

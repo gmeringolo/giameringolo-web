@@ -1,0 +1,262 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Kavivanar&family=Kite+One&family=Mirza:wght@400;500;600;700&family=Sora:wght@100..800&display=swap');
+
+@font-face {
+  font-family: "Mirza";
+  src: url("../public/fonts/Mirza-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Kite_One";
+  src: url("../public/fonts/KiteOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Kavivanar";
+  src: url("../public/fonts/Kavivanar-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Inter_Tight";
+  src: url("../public/fonts/InterTight-Light.ttf");
+}
+
+@font-face {
+  font-family: "Inspiration";
+  src: url("../public/fonts/Inspiration-Regular.ttf");
+}
+
+// And define any of your custom or additional CSS/SCSS here,
+// or via an @import
+// All of your custom SCSS variables go first
+$primary: #754bde;
+$primary-light: #ab98e5;
+$primary-lighter: #D3C0FF;
+$primary-dark: #3c1464;
+$cian: #5acdff;
+$cian-light: #8AD9FC;
+$orange: #ff8700;
+$orange-light: #ffb541;
+$dark: #4D4D4D;
+$gray: #b2b2b2;
+$gray-light: #e0e0e0;
+$gray-light-2: #F2F2F2;
+$gray-dark: #80868d;
+$success: #3ae29b;
+$warn: #f9bc46;
+$error: #f1406b;
+$black: #000000;
+$white: #ffffff;
+$pale: #f8f6fd;
+
+$colors: (
+    "primary": $primary,
+    "primary-light":$primary-light,
+    "primary-lighter": $primary-lighter,
+    "primary-dark": $primary-dark,
+    "cian": $cian,
+    "cian-light": $cian-light,
+    "orange": $orange,
+    "orange-light": $orange-light,
+    "dark": $dark,
+    "gray": $gray,
+    "gray-light": $gray-light,
+    "gray-light-2": $gray-light-2,
+    "gray-dark": $gray-dark,
+    "success": $success,
+    "warn": $warn,
+    "error": $error,
+    "black": $black,
+    "white": $white,
+    "pale": $pale
+);
+// Spacing
+
+$spacer: 1rem;
+$spacers: (
+    // 0
+    0: 0,
+    // 4px
+    1: ($spacer * .25),
+    // 8px
+    2: ($spacer * .5),
+    // 12px
+    3: ($spacer * .75),
+    // 16px
+    4: $spacer,
+    // 20px
+    5: ($spacer * 1.25),
+    // 24px
+    6: ($spacer * 1.5),
+    // 32px
+    7: ($spacer * 2),
+    // 48px
+    8: ($spacer * 3),
+    // 64px
+    9: ($spacer * 4),
+    // 80px
+    10: ($spacer * 5),
+    // 96px
+    11: ($spacer * 6),
+    // 120px
+    12: ($spacer * 7.5)
+);
+
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+);
+
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1320px
+);
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-inter-tight);
+  line-height: 1.6;
+  font-size: 16px;
+  background-color: #F1D6ED;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: mirza;
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-family: kite_one;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+nav {
+  font-family: var(--font-kavivanar);
+  font-size: 20px;
+  width: 440px;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  display: flex;
+
+}
+
+//layout
+
+.homeTxt {
+  font-family: inspiration;
+  font-size: 30px;
+}
+
+//navbar
+
+.navbar-icon-mt{
+  margin-top: 5.5px;
+}
+
+//index
+
+.headingTitle{
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 800;
+  margin: 1rem 0;
+}
+
+.sectionImg {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.homeImg {
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeTxt {
+  font-family: "inspiration";
+  font-size: 30px;
+  margin-top: 8px;
+}
+
+//vountariado
+
+.voluntImg {
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pTxt {
+  font-family: var(--font-inter-tight);
+  font-size: 15px;
+}
+
+.sectionSobreMi {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ml60 {
+  margin-left: 60px;
+}

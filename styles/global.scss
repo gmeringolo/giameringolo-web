@@ -176,7 +176,7 @@ img {
 }
 
 nav {
-  font-family: var(--font-kavivanar);
+  font-family: "kavivanar";
   font-size: 20px;
   width: 440px;
 }
@@ -235,6 +235,24 @@ li {
   margin-top: 8px;
 }
 
+
+//sobre mi
+.sectionSobreMi {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.w-62{
+  width: 62%;
+}
+
+.pTxt {
+  font-family: "inter_tight";
+  font-size: 15px;
+}
+
 //vountariado
 
 .voluntImg {
@@ -245,18 +263,3 @@ li {
   align-items: center;
 }
 
-.pTxt {
-  font-family: var(--font-inter-tight);
-  font-size: 15px;
-}
-
-.sectionSobreMi {
-  margin-top: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.ml60 {
-  margin-left: 60px;
-}

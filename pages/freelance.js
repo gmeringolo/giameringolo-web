@@ -11,7 +11,7 @@ export default function freelance() {
   return (
     <Layout>
       <Head>
-        <title  class="headingTitle">Freelance</title>
+        <title class="headingTitle">Freelance</title>
       </Head>
       <section class="flex justify-center items-center mt-10">
         <div class="flex justify-center flex-col items-center">

@@ -7,11 +7,11 @@ import posadaHorizonte from '../public/img/posadaHorizonte.png';
 
 
 
-export default function freelance() {
+export default function trabajos() {
   return (
     <Layout>
       <Head>
-        <title class="headingTitle">Freelance</title>
+        <title class="headingTitle">Trabajos</title>
       </Head>
       <section class="flex justify-center items-center mt-10">
         <div class="flex justify-center flex-col items-center">

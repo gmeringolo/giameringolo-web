@@ -12,17 +12,16 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sora: ["Sora", "serif"],
         mirza: ["Mirza", "serif"],
         kite_one: ["Kite_One", "serif"],
-        kavivanar: ["Kavivanar", "serif"],
         inter_tight: ["Inter_Tight", "serif"],
       },
       colors: {
-        'primary': '#3f3cbb',
+        'primary': '#8f46a3',
         'purple': '#8D56A9',
         'rosa': '#F4E7F2',
         'white': '#ffffff',
+        'pale': '#F3F3F3',
         'dark': '#434343',
       },
     },

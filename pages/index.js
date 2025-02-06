@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import Link from 'next/link';
 import Layout, { siteTitle } from '../components/layout';
-import sobreMi from '../public/img/homeSobreMi.png';
-import cv from '../public/img/homeCV.png';
-import freelance from '../public/img/homeFreelance.png';
-import voluntariado from '../public/img/homeVoluntariado.png';
+import foto from '../public/img/fotoPerfil.png';
+import { PiHandHeartBold } from "react-icons/pi";
+import { MdComputer } from "react-icons/md";
+import { MdPerson } from "react-icons/md";
+
 
 
 export default function Home() {
@@ -14,46 +14,37 @@ export default function Home() {
       <Head>
         <title class="headingTitle">{siteTitle}</title>
       </Head>
-      <section class="sectionImg">
-        <div class="flex flex-col items-center ml-8 mr-8">
+      <section class="flex justify-center items-center mt-20">
+        <div class="flex justify-center items-center w-62">
           <Image
             priority
-            src={sobreMi}
-            height={130}
-            width={130}
-            alt=""
+            src={foto}
+            height={300}
+            width={300}
+            alt="Foto Gianella Meringolo"
           />
-          <Link href="/sobre_mi" class="homeTxt">Sobre Mi</Link>
-        </div>
-        <div class="flex flex-col items-center ml-8 mr-8">
-          <Image
-            priority
-            src={cv}
-            height={130}
-            width={130}
-            alt=""
-          />
-          <Link href="/cv" class="homeTxt">CV</Link>
-        </div>
-        <div class="flex flex-col items-center ml-8 mr-8">
-          <Image
-            priority
-            src={freelance}
-            height={130}
-            width={130}
-            alt=""
-          />
-          <Link href="/freelance" class="homeTxt">Freelance</Link>
-        </div>
-        <div class="flex flex-col items-center ml-8 mr-8">
-          <Image
-            priority
-            src={voluntariado}
-            height={130}
-            width={130}
-            alt=""
-          />
-          <Link href="/voluntariado" class="homeTxt">Voluntariado</Link>
+          <div class="ml-12">
+            <p class="font-inter_tight text-dark text-xl font-bold">Hola</p>
+            <p class="font-inter_tight text-dark text-base/7 mt-2">Mi nombre es Gianella Meringolo, soy Uruguaya y actualmente vivo en Montevideo. 
+            <br/>En el 2022 culmine la Licenciatura en tecnologías de la información, además soy Diseñadora de interiores, estudié Arquitectura 8 años y en el 2021 me certifique en diseño UX/UI.
+            </p>
+            <p class="font-inter_tight text-dark text-base/7 mt-2">Desde que comence a trabajar en tecnología, desempeñe roles como Java developer, web ui developer, diseñadora de interfaz de usuario y Analista Genexus. Actualmente trabajo freelance como diseñadora gráfica y desarrollando páginas web.</p>
+            <p class="font-inter_tight text-dark text-base/7  mt-2">Soy una persona organizada, responsable, detallista, proactiva, empática, comprometida, con buena comunicación, buena trabajando en equipo y con facilidad de aprendizaje y adaptación.</p>
+            <div class="flex flex-row items-center mt-10">
+              <a href="/voluntariado" class="group bg-pale p-4 shadow-xl rounded-3xl w-[120px] flex flex-col items-center mr-5">
+                <MdPerson size={60} class="text-primary" />
+                <p href="/voluntariado" class="font-inter_tight text-dark text-base">CV</p>
+              </a>
+              <a href="/voluntariado" class="group bg-pale p-4 shadow-xl rounded-3xl w-[120px] flex flex-col items-center mr-5">
+                <MdComputer size={60} class="text-primary" />
+                <p href="/trabajos" class="font-inter_tight text-dark text-base">Trabajos</p>
+              </a>
+              <a href="/voluntariado" class="group bg-pale p-4 shadow-xl rounded-3xl w-[120px] flex flex-col items-center">
+                <PiHandHeartBold size={60} class="text-primary" />
+                <p href="/voluntariado" class="font-inter_tight text-dark text-base">Voluntariado</p>
+              </a>
+            </div>
+          </div>
         </div>
       </section>
     </Layout>

@@ -16,18 +16,13 @@ export default function Navbar() {
                         </Link>
                     </li>
                     <li class="li">
-                        <Link href="/sobre_mi" title="sobre mi">
-                            Sobre mi
-                        </Link>
-                    </li>
-                    <li class="li">
                         <Link href="/cv" title="cv">
                             CV
                         </Link>
                     </li>
                     <li class="li">
-                        <Link href="/freelance" title="freelance">
-                            Freelance
+                        <Link href="/trabajos" title="trabajos">
+                            Trabajos
                         </Link>
                     </li>
                     <li class="li">

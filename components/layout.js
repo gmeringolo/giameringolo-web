@@ -21,13 +21,13 @@ export default function Layout({ children, home }) {
             <header class="flex flex-col items-center">
                 {home ? (
                     <>
-                        <h1 class="mt-5">{name}</h1>
-                        <h3>{career}</h3>
+                        <h1 class="mt-10 mb-0 text-primary text-6xl">{name}</h1>
+                        <h2 class="mt-0 text-dark text-xl">{career}</h2>
                     </>
                 ) : (
                     <>
-                        <h1 class="mt-5">{name}</h1>
-                        <h3>{career}</h3>
+                        <h1 class="mt-10 mb-0 text-primary text-6xl">{name}</h1>
+                        <h2 class="mt-0 text-dark text-xl">{career}</h2>
                         <Navbar/>
                     </>
                 )}

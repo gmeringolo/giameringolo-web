@@ -157,7 +157,6 @@ h3 {
 a {
   color: dark;
   text-decoration: none;
-  font-size: 20px;
 }
 
 a:hover {
@@ -178,26 +177,9 @@ img {
 
 //navbar
 
-.navbar-icon-mt{
-  margin-top: 5.5px;
-}
-
 nav {
-  font-family: "kavivanar";
-  font-size: 20px;
-  width: 440px;
-}
-
-.ul {
-  padding: 0px;
-  margin: 0px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.li {
-  display: flex;
-
+  font-family: var(--font-inter-tight);
+  width: 400px;
 }
 
 //index
@@ -255,12 +237,12 @@ nav {
   align-items: center;
 }
 
-//cv
+//Experiencia
 ul.b {
   list-style-type: square;
 }
 
-
+//Animación tarjetas
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -280,3 +262,4 @@ body{
 .card__front,
 .card__back { backface-visibility: hidden;}
 .card__back{ transform: rotateY(.5turn);}
+

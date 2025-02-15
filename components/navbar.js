@@ -9,18 +9,18 @@ export default function Navbar() {
                 <title>Navbar</title>
             </Head>
             <nav class="mt-6">
-                <ul class="ul">
-                    <li class="li">
+                <ul class="flex justify-around items-center text-lg text-dark">
+                    <li class="">
                         <Link class="navbar-icon-mt" href="/" title="home">
-                            <FaHome />
+                            <FaHome size={20}/>
                         </Link>
                     </li>
-                    <li class="li">
+                    <li>
                         <Link href="/cv" title="cv">
                             Experiencia
                         </Link>
                     </li>
-                    <li class="li">
+                    <li class="">
                         <Link href="/trabajos" title="trabajos">
                             Trabajos
                         </Link>

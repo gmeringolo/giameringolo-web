@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Navbar from '../components/navbar';
+import Footer from '../components/footer';
 
 const name = 'GIANELLA MERINGOLO';
 const career = 'Licenciada en TI- Web developer- UX/UI designer';
@@ -33,6 +34,7 @@ export default function Layout({ children, home }) {
                 )}
             </header>
             <main>{children}</main>
+            <Footer/>
         </>
 
     );

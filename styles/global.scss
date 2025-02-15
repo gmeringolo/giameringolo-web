@@ -1,8 +1,7 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Kavivanar&family=Kite+One&family=Mirza:wght@400;500;600;700&family=Sora:wght@100..800&display=swap');
 
 @font-face {
   font-family: "Mirza";
@@ -10,19 +9,11 @@
 }
 
 @font-face {
-  font-family: "Kite_One";
-  src: url("../public/fonts/KiteOne-Regular.ttf");
-}
-
-@font-face {
   font-family: "Inter_Tight";
   src: url("../public/fonts/InterTight-Light.ttf");
 }
 
-@font-face {
-  font-family: "Inspiration";
-  src: url("../public/fonts/Inspiration-Regular.ttf");
-}
+
 
 // And define any of your custom or additional CSS/SCSS here,
 // or via an @import
@@ -134,9 +125,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: var(--font-inter-tight);
-  line-height: 1.6;
-  font-size: 16px;
+  background-color: $white;
 }
 
 * {
@@ -168,12 +157,6 @@ img {
   display: block;
 }
 
-//layout
-
-.homeTxt {
-  font-family: inspiration;
-  font-size: 30px;
-}
 
 //navbar
 
@@ -218,10 +201,6 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.w-62{
-  width: 62%;
 }
 
 .pTxt {

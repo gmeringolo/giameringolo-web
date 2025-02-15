@@ -13,7 +13,6 @@ module.exports = {
     extend: {
       fontFamily: {
         mirza: ["Mirza", "serif"],
-        kite_one: ["Kite_One", "serif"],
         inter_tight: ["Inter_Tight", "serif"],
       },
       colors: {

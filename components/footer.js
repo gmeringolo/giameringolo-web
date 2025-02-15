@@ -22,7 +22,7 @@ export default function Footer() {
                     <FaGithub size={25} class="text-white" />
                 </a>
                 </div>
-                <div class="mb-3 mt-2 text-dark text-s">
+                <div class="mb-3 mt-2 text-dark text-sm">
                     <p>
                     Copyright© 2025 Gianella Meringolo
                     </p>

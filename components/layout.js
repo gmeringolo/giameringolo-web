@@ -33,7 +33,7 @@ export default function Layout({ children, home }) {
                     </>
                 )}
             </header>
-            <main>{children}</main>
+            <main class="max-w-screen-lg ml-10 mr-10">{children}</main>
             <Footer/>
         </>
 

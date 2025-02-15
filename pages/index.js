@@ -31,11 +31,11 @@ export default function Home() {
             <p class="font-inter_tight text-dark text-base/7 mt-2">Desde que comence a trabajar en tecnología, desempeñe roles como Java developer, web ui developer, diseñadora de interfaz de usuario y Analista Genexus. Actualmente trabajo freelance como diseñadora gráfica y desarrollando páginas web.</p>
             <p class="font-inter_tight text-dark text-base/7  mt-2">Soy una persona organizada, responsable, detallista, proactiva, empática, comprometida, con buena comunicación, buena trabajando en equipo y con facilidad de aprendizaje y adaptación.</p>
             <div class="flex flex-row items-center mt-10">
-              <a href="/voluntariado" class="group bg-pale p-4 shadow-xl rounded-3xl w-[120px] flex flex-col items-center mr-5">
+              <a href="/cv" class="group bg-pale p-4 shadow-xl rounded-3xl w-[120px] flex flex-col items-center mr-5">
                 <MdPerson size={60} class="text-primary" />
-                <p href="/voluntariado" class="font-inter_tight text-dark text-base">CV</p>
+                <p href="/cv" class="font-inter_tight text-dark text-base">Experiencia</p>
               </a>
-              <a href="/voluntariado" class="group bg-pale p-4 shadow-xl rounded-3xl w-[120px] flex flex-col items-center mr-5">
+              <a href="/trabajos" class="group bg-pale p-4 shadow-xl rounded-3xl w-[120px] flex flex-col items-center mr-5">
                 <MdComputer size={60} class="text-primary" />
                 <p href="/trabajos" class="font-inter_tight text-dark text-base">Trabajos</p>
               </a>

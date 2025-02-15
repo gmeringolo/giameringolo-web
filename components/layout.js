@@ -22,12 +22,12 @@ export default function Layout({ children, home }) {
                 {home ? (
                     <>
                         <h1 class="mt-10 mb-0 text-primary text-6xl">{name}</h1>
-                        <h2 class="mt-0 text-dark text-xl">{career}</h2>
+                        <h2 class="mt-0 text-dark text-xl font-inter_tight">{career}</h2>
                     </>
                 ) : (
                     <>
                         <h1 class="mt-10 mb-0 text-primary text-6xl">{name}</h1>
-                        <h2 class="mt-0 text-dark text-xl">{career}</h2>
+                        <h2 class="mt-0 text-dark text-xl font-inter_tight">{career}</h2>
                         <Navbar/>
                     </>
                 )}

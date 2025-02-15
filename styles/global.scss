@@ -42,6 +42,10 @@ $warn: #f9bc46;
 $error: #f1406b;
 $black: #000000;
 $white: #ffffff;
+$globant: #8FBE39;
+$abstracta: #754BDE;
+$liga: #AAD9E2;
+$liga2: #446D72;
 
 
 $colors: (
@@ -60,6 +64,10 @@ $colors: (
     "error": $error,
     "black": $black,
     "white": $white,
+    'globant': $globant,
+    'abstracta': $abstracta,
+    'liga': $liga,
+    'liga2': $liga2,
 );
 // Spacing
 
@@ -138,10 +146,6 @@ body {
 h1 {
   font-family: mirza;
   font-size: 50px;
-}
-h2 {
-  font-family: inter_tight;
-  font-size: 20px;
 }
 
 h3 {
@@ -255,3 +259,24 @@ nav {
 ul.b {
   list-style-type: square;
 }
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: "Inter_Tight";
+}
+
+/* Vanilla CSS for flip card */
+.card { perspective: 800px;}
+.card__content {transform-style: preserve-3d;}
+.card:hover .card__content {transform: rotateY(.5turn);}
+
+.card__front,
+.card__back { backface-visibility: hidden;}
+.card__back{ transform: rotateY(.5turn);}

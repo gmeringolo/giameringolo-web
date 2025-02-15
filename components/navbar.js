@@ -17,7 +17,7 @@ export default function Navbar() {
                     </li>
                     <li class="li">
                         <Link href="/cv" title="cv">
-                            CV
+                            Experiencia
                         </Link>
                     </li>
                     <li class="li">

@@ -17,7 +17,7 @@ export default function trabajos() {
           <Link href="https://www.behance.net/gallery/115905061/Diseno-UXUI-Buscador-Nutricional" target='_blank' class="flex justify-center">
             <Image
               priority
-              src={infoProd}
+              src={infoprod}
               class="w-3/4"
               alt="proyecto infoprod"
             />

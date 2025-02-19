@@ -7,9 +7,6 @@ import { FaBehance } from "react-icons/fa";
 export default function Footer() {
     return (
         <>
-            <Head>
-                <title>Footer</title>
-            </Head>
             <footer class="flex  flex-col items-center mt-20 justify-center" >
                 <div class="flex flex-row items-center justify-center">
                 <a href="https://www.behance.net/gmeringoloa08a" target='_blanck' class="group bg-primary p-2 mr-3 shadow-xl rounded-xl w-[35px] h-[35px] flex flex-col items-center">

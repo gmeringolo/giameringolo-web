@@ -13,11 +13,7 @@ export default function Voluntariado() {
       <Head>
         <title class="headingTitle">Voluntariado</title>
       </Head>
-      <div class="flex flex-col items-center container mx-auto">
-
-        <h2 class="text-dark font-black text-2xl font-inter_tight mt-10">
-          VOLUNTARIADOS REALIZADOS
-        </h2>
+      <div class="flex flex-col items-center container mx-auto mt-8">
         <div class="mt-8 w-[1000px] flex flex-row">
           <div class="card w-1/3 mr-3">
             <div class="card__content text-center transition-transform duration-1000">

@@ -5,9 +5,6 @@ import { FaHome } from "react-icons/fa";
 export default function Navbar() {
     return (
         <>
-            <Head>
-                <title>Navbar</title>
-            </Head>
             <nav class="mt-6">
                 <ul class="flex justify-around items-center text-lg text-dark">
                     <li class="">

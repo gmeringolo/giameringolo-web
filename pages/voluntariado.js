@@ -11,7 +11,7 @@ export default function Voluntariado() {
   return (
     <Layout>
       <Head>
-        <title class="headingTitle">Voluntariado</title>
+        <title>Gianella Meringolo |Voluntariado</title>
       </Head>
       <div class="flex flex-col items-center container mx-auto mt-8">
         <div class="mt-8 w-[1000px] flex flex-row">

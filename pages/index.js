@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <Layout home>
       <Head>
-        <title class="headingTitle">{siteTitle}</title>
+        <title>{siteTitle}</title>
       </Head>
       <section class="flex justify-center items-center mt-12">
         <div class="flex justify-center items-center">

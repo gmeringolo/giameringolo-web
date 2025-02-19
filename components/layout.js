@@ -10,13 +10,18 @@ export default function Layout({ children, home }) {
     return (
         <>
             <Head>
+                <meta charset="UTF-8"/>
                 <link rel='icon' href='/favicon.ico' />
                 <meta
                     name="description"
-                    content="Gianella Meringolo website"
+                    content="En esta pagina doy a conocer mi trabajos de diseñadora ux/ui y desarrolladora web. Tambien pueden ver mi experiencia laboral y descargar mi cv en formato pdf"
                 />
+                <meta name="keywords" content="HTML, CSS, JavaScript"/>
                 <meta name="og:title" content={siteTitle} />
-
+                <meta name="author" content="Gianella Meringolo"></meta>
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="googlebot" content="notranslate"/>
+                <meta name="google" content="nopagereadaloud"/>
             </Head>
     
             <header class="flex flex-col items-center mt-8 mb-0">

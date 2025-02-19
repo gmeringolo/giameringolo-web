@@ -12,7 +12,7 @@ export default function Cv() {
     return (
         <Layout>
             <Head>
-                <title>CV</title>
+                <title>Gianella Meringolo | Experiencia</title>
             </Head>
             <div class="flex flex-col items-center container mx-auto">
                 <div class="mt-8">

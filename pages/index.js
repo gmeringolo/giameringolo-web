@@ -31,17 +31,17 @@ export default function Home() {
             <p class="font-inter_tight text-dark text-base/7 mt-2">Desde que comence a trabajar en tecnología, desempeñe roles como Java developer, web ui developer, diseñadora de interfaz de usuario y Analista Genexus. Actualmente trabajo freelance como diseñadora gráfica y desarrollando páginas web.</p>
             <p class="font-inter_tight text-dark text-base/7  mt-2">Soy una persona organizada, responsable, detallista, proactiva, empática, comprometida, con buena comunicación, buena trabajando en equipo y con facilidad de aprendizaje y adaptación.</p>
             <div class="flex flex-row items-center mt-6">
-              <a href="/cv" class="group bg-pale p-4 shadow-xl rounded-3xl w-[105px] flex flex-col items-center mr-5">
+              <a href="/cv" class="group bg-pale p-4 shadow-xl rounded-3xl w-[105px] flex flex-col items-center mr-5 hover:bg-rose-50 ">
                 <MdPerson size={40} class="text-primary" />
-                <p href="/cv" class="font-inter_tight text-dark text-sm">Experiencia</p>
+                <p href="/cv" class="font-inter_tight text-dark text-sm hover:text-primary hover:font-semibold">Experiencia</p>
               </a>
-              <a href="/trabajos" class="group bg-pale p-4 shadow-xl rounded-3xl w-[105px] flex flex-col items-center mr-5">
+              <a href="/trabajos" class="group bg-pale p-4 shadow-xl rounded-3xl w-[105px] flex flex-col items-center mr-5 hover:bg-rose-50 ">
                 <MdComputer size={40} class="text-primary" />
-                <p href="/trabajos" class="font-inter_tight text-dark text-sm">Trabajos</p>
+                <p href="/trabajos" class="font-inter_tight text-dark text-sm hover:text-primary hover:font-semibold">Trabajos</p>
               </a>
-              <a href="/voluntariado" class="group bg-pale p-4 shadow-xl rounded-3xl w-[105px] flex flex-col items-center">
+              <a href="/voluntariado" class="group bg-pale hover:bg-rose-50 p-4 shadow-xl rounded-3xl w-[105px] flex flex-col items-center">
                 <PiHandHeartBold size={40} class="text-primary" />
-                <p href="/voluntariado" class="font-inter_tight text-dark text-sm">Voluntariado</p>
+                <p href="/voluntariado" class="font-inter_tight text-dark text-sm hover:text-primary hover:font-semibold">Voluntariado</p>
               </a>
             </div>
           </div>

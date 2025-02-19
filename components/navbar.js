@@ -7,23 +7,23 @@ export default function Navbar() {
         <>
             <nav class="mt-6">
                 <ul class="flex justify-around items-center text-lg text-dark">
-                    <li class="">
-                        <Link class="navbar-icon-mt" href="/" title="home">
+                    <li>
+                        <Link class="navbar-icon-mt hover:text-primary" href="/" title="home">
                             <FaHome size={20}/>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/cv" title="cv">
+                        <Link class="hover:text-primary hover:font-semibold  focus:text-primary" href="/cv" title="experiencia">
                             Experiencia
                         </Link>
                     </li>
-                    <li class="">
-                        <Link href="/trabajos" title="trabajos">
+                    <li>
+                        <Link class="hover:text-primary hover:font-semibold" href="/trabajos" title="trabajos">
                             Trabajos
                         </Link>
                     </li>
-                    <li class="li">
-                        <Link href="/voluntariado" title="voluntariado">
+                    <li>
+                        <Link class="hover:text-primary hover:font-semibold" href="/voluntariado" title="voluntariado">
                             Voluntariado
                         </Link>
                     </li>

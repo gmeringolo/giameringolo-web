@@ -10,7 +10,7 @@ export default function trabajos() {
   return (
     <Layout>
       <Head>
-        <title class="headingTitle">Gianella Meringolo |Trabajos</title>
+        <title>Gianella Meringolo |Trabajos</title>
       </Head>
       <section class="flex flex-col justify-center items-center mt-10 mx-auto">
         <div class="flex flex-col justify-center items-center mb-12">

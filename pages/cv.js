@@ -16,7 +16,7 @@ export default function Cv() {
             </Head>
             <div class="flex flex-col items-center container mx-auto">
                 <div class="mt-8">
-                    <a href='pdf/Gianella2025es.pdf' target="_blank" class="bg-purple text-pale pr-5 pl-5 pt-2 pb-2 shadow-xl rounded-3xl">Descargar cv</a>
+                    <a href='pdf/Gianella2025es.pdf' target="_blank" class="bg-purple text-pale pr-5 pl-5 pt-2 pb-2 shadow-xl rounded-3xl hover:bg-dark">Descargar cv</a>
                 </div>
                 <h2 class="text-dark font-black text-2xl font-inter_tight mt-10">
                     EXPERIENCIA LABORAL

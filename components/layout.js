@@ -3,7 +3,7 @@ import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 
 const name = 'GIANELLA MERINGOLO';
-const career = 'Licenciada en TI- Web developer- UX/UI designer';
+const career = 'Licenciada en TI- Diseñadora UX/UI- Desarrolladora web';
 export const siteTitle = 'Gianella Meringolo'
 
 export default function Layout({ children, home }) {

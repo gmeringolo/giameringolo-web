@@ -13,13 +13,13 @@ export default function Navbar() {
                         </Link>
                     </li>
                     <li>
-                        <Link class="hover:text-primary hover:font-semibold  focus:text-primary" href="/cv" title="experiencia">
+                        <Link class="hover:text-primary hover:font-semibold  focus:text-primary" href="/experiencia" title="experiencia">
                             Experiencia
                         </Link>
                     </li>
                     <li>
-                        <Link class="hover:text-primary hover:font-semibold" href="/trabajos" title="trabajos">
-                            Trabajos
+                        <Link class="hover:text-primary hover:font-semibold" href="/portfolio" title="portfolio">
+                            Portfolio
                         </Link>
                     </li>
                     <li>

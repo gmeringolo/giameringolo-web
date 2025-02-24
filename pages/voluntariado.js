@@ -13,7 +13,10 @@ export default function Voluntariado() {
       <Head>
         <title>Gianella Meringolo |Voluntariado</title>
       </Head>
-      <div class="flex flex-col items-center container mx-auto mt-8">
+      <div class="flex flex-col items-center justify-center container mx-auto mt-8">
+        <h1 class="text-dark font-black text-2xl font-inter_tight">
+          VOLUNTARIADOS
+        </h1>
         <div class="mt-8 w-[1000px] flex flex-row">
           <div class="card w-1/3 mr-3">
             <div class="card__content text-center transition-transform duration-1000">
@@ -59,7 +62,7 @@ export default function Voluntariado() {
                   class="w-full rounded-3xl"
                   alt=""
                 />
-                <div class="text font-inter_tight text-base mb-1 bg-pale w-full rounded-3xl p-2"><strong>Colaboratora - RSG (Globant)</strong><br/>Jan 2022 - Abr 2024</div>
+                <div class="text font-inter_tight text-base mb-1 bg-pale w-full rounded-3xl p-2"><strong>Colaboratora - RSG (Globant)</strong><br />Jan 2022 - Abr 2024</div>
               </div>
               <div class="card__back absolute top-0 bottom-0 right-0 left-0 p-8 bg-primary text-white flex flex-col items-center justify-center shadow-xl rounded-3xl">
                 <p class="text-sm font-inter_tight">Me uní a este grupo de voluntarios que ayudan a la comunidad en diferentes iniciativas que surgen a lo largo del año. Realizamos campañas de donación de sangre, recolección de alimentos para canastas familiares, donación de juguetes a instituciones infantiles, etc.

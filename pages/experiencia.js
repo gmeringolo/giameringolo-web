@@ -14,13 +14,13 @@ export default function Cv() {
             <Head>
                 <title>Gianella Meringolo | Experiencia</title>
             </Head>
-            <div class="flex flex-col items-center container mx-auto">
+            <div class="flex flex-col items-center container mx-auto mt-8">
+                <h1 class="text-dark font-black text-2xl font-inter_tight">
+                    EXPERIENCIA LABORAL
+                </h1>
                 <div class="mt-8">
                     <a href='pdf/Gianella2025es.pdf' target="_blank" class="bg-purple text-pale pr-5 pl-5 pt-2 pb-2 shadow-xl rounded-3xl hover:bg-dark">Descargar cv</a>
                 </div>
-                <h2 class="text-dark font-black text-2xl font-inter_tight mt-10">
-                    EXPERIENCIA LABORAL
-                </h2>
                 <div class="mt-8 w-[900px] flex flex-row">
                     <div class="card w-1/3 mr-3">
                         <div class="card__content text-center relative p-5 transition-transform duration-1000 h-[17rem]">
@@ -103,7 +103,7 @@ export default function Cv() {
                             </div>
                             <div class="card__back absolute top-0 bottom-0 right-0 left-0 p-8 bg-primary text-white flex items-center justify-center shadow-xl rounded-3xl">
                                 <p class="text-sm font-inter_tight">
-                                He trabajado en la creación de planos técnicos detallados, modelado de espacios y diseño de material gráfico, adaptando cada proyecto a las necesidades específicas de los clientes. Mi enfoque es proporcionar soluciones visuales y técnicas efectivas, asegurando la satisfacción del cliente y la calidad en cada entrega.
+                                    He trabajado en la creación de planos técnicos detallados, modelado de espacios y diseño de material gráfico, adaptando cada proyecto a las necesidades específicas de los clientes. Mi enfoque es proporcionar soluciones visuales y técnicas efectivas, asegurando la satisfacción del cliente y la calidad en cada entrega.
                                 </p>
                             </div>
                         </div>
@@ -111,7 +111,7 @@ export default function Cv() {
                     <div class="card w-1/3 mr-3">
                         <div class="card__content text-center relative p-5 transition-transform duration-1000  h-[17rem]">
                             <div class="card__front absolute top-0 bottom-0 right-0 left-0 p-8 bg-pale flex flex-col items-center justify-center shadow-xl rounded-3xl">
-                            <FaDrawPolygon size={50} class="text-dark mb-2"/>
+                                <FaDrawPolygon size={50} class="text-dark mb-2" />
                                 <h3 class="font-inter_tight text-2xl font-semibold mb-4 text-primary">
                                     Dibujante Técnico 2D y 3D
                                 </h3>
@@ -132,7 +132,7 @@ export default function Cv() {
                     <div class="card w-1/3">
                         <div class="card__content text-center relative p-5 transition-transform duration-1000 h-[17rem]">
                             <div class="card__front absolute top-0 bottom-0 right-0 left-0 p-12 bg-pale flex flex-col items-center justify-center shadow-xl rounded-3xl">
-                            <FaRegBuilding size={49} class="text-dark mb-2"/>
+                                <FaRegBuilding size={49} class="text-dark mb-2" />
                                 <h3 class="font-inter_tight text-2xl font-semibold mb-4 text-primary">
                                     Dibujante Técnico 2D
                                 </h3>

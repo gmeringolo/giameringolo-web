@@ -12,9 +12,12 @@ export default function trabajos() {
   return (
     <Layout>
       <Head>
-        <title>Gianella Meringolo |Trabajos</title>
+        <title>Gianella Meringolo |Portfolio</title>
       </Head>
-      <section class="flex flex-col justify-center items-center mt-10 mx-auto">
+      <section class="flex flex-col justify-center items-center mt-8 mx-auto">
+        <h1 class="text-dark font-black text-2xl font-inter_tight mb-8">
+          PORTFOLIO
+        </h1>
         <div class="flex flex-col justify-center items-center mb-12">
           <Link href="https://www.behance.net/gallery/115905061/Diseno-UXUI-Buscador-Nutricional" target='_blank' class="flex justify-center">
             <Image

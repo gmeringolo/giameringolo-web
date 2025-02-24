@@ -5,10 +5,9 @@ import infoprod from '../public/img/infoprod1.png';
 import posada from '../public/img/posada.png';
 import salvica from '../public/img/salvica.png';
 import Link from 'next/link';
-import { IoLogoFigma } from "react-icons/io5";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
-export default function trabajos() {
+export default function Portfolio() {
   return (
     <Layout>
       <Head>

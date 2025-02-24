@@ -25,7 +25,7 @@ export default function Voluntariado() {
                   priority
                   src={grupoIot}
                   class="w-full rounded-3xl"
-                  alt=""
+                  alt="Grupo Iot"
                 />
                 <div class="text font-inter_tight text-base mb-1 bg-pale w-full rounded-3xl p-2"><strong>Rescatista de gatos Grupo Iot</strong><br />May 2010 - Presente</div>
               </div>

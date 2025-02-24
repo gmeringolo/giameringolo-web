@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import Layout from '../components/layout';
 import { MdComputer } from "react-icons/md";
 import { IoIosFootball } from "react-icons/io";
@@ -6,9 +7,20 @@ import { IoColorPaletteOutline } from "react-icons/io5";
 import { RxHome } from "react-icons/rx";
 import { FaDrawPolygon } from "react-icons/fa";
 import { FaRegBuilding } from "react-icons/fa";
+import figma from "../public/svg/figma.svg";
+import illustrator from "../public/svg/illustrator.svg";
+import photoshop from "../public/svg/photoshop.svg";
+import html from "../public/svg/html.svg";
+import css from "../public/svg/css.svg";
+import javascript from "../public/svg/javascript.svg";
+import react from "../public/svg/react.svg";
+import next from "../public/svg/next-js.svg";
+import tailwind from "../public/svg/tailwind.svg";
+import bootstrap from "../public/svg/bootstrap.svg";
+import shopify from "../public/svg/shopify.svg";
 
 
-export default function Cv() {
+export default function Experiencia() {
     return (
         <Layout>
             <Head>
@@ -150,6 +162,91 @@ export default function Cv() {
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="flex flex-col items-center container mx-auto mt-10">
+                <h1 class="text-dark font-black text-2xl font-inter_tight">
+                    HABILIDADES TÉCNICAS
+                </h1>
+                <div class="flex flex-row mt-6">
+                    <Image
+                        priority
+                        src={figma}
+                        alt="Figma"
+                        height={55}
+                        class="mr-6"
+                    />
+                    <Image
+                        priority
+                        src={illustrator}
+                        alt="Illustrator"
+                        height={52}
+                        class="mr-6"
+                    />
+                    <Image
+                        priority
+                        src={photoshop}
+                        alt="photoshop"
+                        height={52}
+                        class="mr-6"
+                    />
+                    <Image
+                        priority
+                        src={html}
+                        alt="Html"
+                        height={54}
+                        class="mr-6"
+                    />
+                    <Image
+                        priority
+                        src={css}
+                        alt="Css"
+                        height={54}
+                        class="mr-6"
+                    />
+                    <Image
+                        priority
+                        src={javascript}
+                        alt="Javascript"
+                        height={55}
+                        class="mr-6"
+                    />
+                    <Image
+                        priority
+                        src={react}
+                        alt="React"
+                        height={58}
+                        class="mr-6"
+                    />
+                    <Image
+                        priority
+                        src={next}
+                        alt="Next.js"
+                        height={52}
+                        class="mr-6"
+                    />
+                    <Image
+                        priority
+                        src={tailwind}
+                        alt="Tailwind"
+                        height={50}
+                        width={48}
+                        class="mr-6"
+                    /> 
+                    <Image
+                        priority
+                        src={bootstrap}
+                        alt="Bootstrap"
+                        height={48}
+                        class="mr-6"
+                    />
+                    <Image
+                        priority
+                        src={shopify}
+                        alt="Shopify"
+                        height={52}
+                        class="mr-6"
+                    /> 
                 </div>
             </div>
         </Layout>

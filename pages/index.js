@@ -22,6 +22,7 @@ export default function Home() {
             src={foto}
             height={300}
             width={300}
+            class="rounded-full"
             alt="Foto Gianella Meringolo"
           />
           <div class="ml-12">

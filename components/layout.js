@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 
@@ -32,8 +33,10 @@ export default function Layout({ children, home }) {
                     </>
                 ) : (
                     <>
+                        <Link href="/">
                         <h1 class="text-primary text-6xl">{name}</h1>
                         <h2 class="mt-0 text-dark text-xl font-inter_tight">{career}</h2>
+                        </Link>
                         <Navbar/>
                     </>
                 )}

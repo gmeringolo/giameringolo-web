@@ -25,23 +25,23 @@ export default function Layout({ children, home }) {
                 <meta name="google" content="nopagereadaloud"/>
             </Head>
     
-            <header class="flex flex-col items-center mt-8 mb-0">
+            <header class="flex flex-col items-center mt-4 lg:mt-8 mb-0">
                 {home ? (
                     <>
-                        <h1 class="text-primary text-6xl">{name}</h1>
-                        <h2 class="mt-0 text-dark text-xl font-inter_tight">{career}</h2>
+                        <h1 class="text-primary text-5xl md:text-6xl">{name}</h1>
+                        <h2 class="mt-0 text-dark text-base md:text-lg lg:text-xl font-inter_tight">{career}</h2>
                     </>
                 ) : (
                     <>
                         <Link href="/">
-                        <h1 class="text-primary text-6xl">{name}</h1>
-                        <h2 class="mt-0 text-dark text-xl font-inter_tight">{career}</h2>
+                        <h1 class="text-primary text-5xl md:text-6xl">{name}</h1>
+                        <h2 class="mt-0 text-dark text-base md:text-lg lg:text-xl font-inter_tight">{career}</h2>
                         </Link>
                         <Navbar/>
                     </>
                 )}
             </header>
-            <main class="max-w-screen-lg ml-10 mr-10">{children}</main>
+            <main class="max-w-screen-lg ml-10 mr-10 lg:ml-16 lg:mr-16">{children}</main>
             <Footer/>
         </>
 

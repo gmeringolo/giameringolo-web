@@ -9,7 +9,6 @@ import { FaDrawPolygon } from "react-icons/fa";
 import { FaRegBuilding } from "react-icons/fa";
 import figma from "../public/svg/figma.svg";
 import illustrator from "../public/svg/illustrator.svg";
-import photoshop from "../public/svg/photoshop.svg";
 import html from "../public/svg/html.svg";
 import css from "../public/svg/css.svg";
 import javascript from "../public/svg/javascript.svg";
@@ -26,23 +25,23 @@ export default function Experiencia() {
             <Head>
                 <title>Gianella Meringolo | Experiencia</title>
             </Head>
-            <div class="flex flex-col items-center container mx-auto mt-8">
-                <h1 class="text-dark font-black text-2xl font-inter_tight">
+            <div class="flex flex-col items-center  container mx-auto mt-8">
+                <h1 class="text-dark font-black text-xl lg:text-2xl font-inter_tight">
                     EXPERIENCIA LABORAL
                 </h1>
                 <div class="mt-8">
                     <a href='pdf/Gianella2025es.pdf' target="_blank" class="bg-purple text-pale pr-5 pl-5 pt-2 pb-2 shadow-xl rounded-3xl hover:bg-dark">Descargar cv</a>
                 </div>
-                <div class="mt-8 w-[900px] flex flex-row">
-                    <div class="card w-1/3 mr-3">
-                        <div class="card__content text-center relative p-5 transition-transform duration-1000 h-[17rem]">
+                <div class="mt-8 w-[350px] lg:w-[900px] flex flex-col lg:flex-row">
+                    <div class="card lg:w-1/3 lg:mr-3">
+                        <div class="card__content text-center relative p-5 transition-transform duration-1000 h-[12rem] lg:h-[17rem]">
                             <div class="card__front absolute top-0 bottom-0 right-0 left-0 p-8 bg-pale flex flex-col items-center justify-center shadow-xl rounded-3xl">
                                 <IoColorPaletteOutline size={50} class="text-dark mb-2" />
-                                <h3 class="font-inter_tight text-2xl text-primary  font-semibold mb-4">
+                                <h3 class="font-inter_tight text-lg lg:text-xl text-primary font-semibold mb-4">
                                     Diseñadora y Maquetadora Web
                                 </h3>
-                                <h3 class="font-inter_tight text-base font-semibold text-dark">
-                                    Abstracta Academy
+                                <h3 class="font-inter_tight text-sm lg:text-base font-semibold text-dark">
+                                    Freelance Abstracta Academy
                                 </h3>
                                 <p class="text-sm font-inter_tight text-dark">
                                     Jun 2024 - Presente
@@ -55,15 +54,16 @@ export default function Experiencia() {
                             </div>
                         </div>
                     </div>
-                    <div class="card w-1/3 mr-3">
-                        <div class="card__content text-center relative p-5 transition-transform duration-1000 h-[17rem]">
+                    <div class="card lg:w-1/3 mt-4 lg:mt-0 lg:mr-3">
+                        <div class="card__content text-center relative p-5 transition-transform duration-1000 h-[12rem] lg:h-[17rem]">
                             <div class="card__front absolute top-0 bottom-0 right-0 left-0 p-8 bg-pale bg-pañe flex flex-col items-center justify-center shadow-xl rounded-3xl">
                                 <IoIosFootball size={50} class="text-dark mb-2" />
-                                <h3 class="font-inter_tight text-2xl font-semibold text-primary mb-4">
-                                    Administrativa y Soporte Técnico
+                                <h3 class="font-inter_tight text-lg lg:text-xl
+                                font-semibold text-primary mb-4">
+                                    Administrativa y Soporte Técnico 
                                 </h3>
-                                <h3 class="font-inter_tight text-dark  text-base font-semibold">
-                                    Liga América
+                                <h3 class="font-inter_tight text-dark   text-sm lg:text-base font-semibold">
+                                    Freelance Liga América
                                 </h3>
                                 <p class="text-sm text-dark font-inter_tight">
                                     Feb 2015 - Presente
@@ -76,14 +76,14 @@ export default function Experiencia() {
                             </div>
                         </div>
                     </div>
-                    <div class="card w-1/3">
-                        <div class="card__content text-center relative p-5 transition-transform duration-1000  h-[17rem]">
+                    <div class="card lg:w-1/3 mt-4 lg:mt-0 lg:mr-0">
+                        <div class="card__content text-center relative p-3 lg:p-5 transition-transform duration-1000 h-[14rem] lg:h-[17rem]">
                             <div class="card__front absolute top-0 bottom-0 right-0 left-0 p-12 bg-pale flex flex-col items-center justify-center shadow-xl rounded-3xl">
                                 <MdComputer size={50} class="text-dark mb-2" />
-                                <h3 class="font-inter_tight text-2xl font-semibold mb-4 text-primary">
+                                <h3 class="font-inter_tight text-lg lg:text-xl font-semibold mb-4 text-primary lg:pr-5 lg:pl-5">
                                     Desarrolladora Web UI
                                 </h3>
-                                <h3 class="font-inter_tight text-base font-semibold text-dark">
+                                <h3 class="font-inter_tight  text-sm lg:text-base font-semibold text-dark">
                                     Globant
                                 </h3>
                                 <p class="text-sm font-inter_tight text-dark">
@@ -98,15 +98,15 @@ export default function Experiencia() {
                         </div>
                     </div>
                 </div>
-                <div class="mt-6 w-[900px] flex flex-row">
-                    <div class="card w-1/3 mr-3">
-                        <div class="card__content text-center relative p-5 transition-transform duration-1000  h-[17rem]">
+                <div class="mt-0 lg:mt-6 w-[350px] lg:w-[900px] flex flex-col lg:flex-row">
+                    <div class="card lg:w-1/3 mt-4 lg:mt-0 lg:mr-3">
+                        <div class="card__content text-center relative p-5 transition-transform duration-1000 h-[12rem] lg:h-[17rem]">
                             <div class="card__front absolute top-0 bottom-0 right-0 left-0 p-8 bg-pale flex flex-col items-center justify-center shadow-xl rounded-3xl">
                                 <RxHome size={49} class="text-dark mb-2" />
-                                <h3 class="font-inter_tight text-2xl text-primary font-semibold mb-4">
+                                <h3 class="font-inter_tight text-lg lg:text-xl text-primary font-semibold mb-4">
                                     Dibujante CAD y diseñador grafico
                                 </h3>
-                                <h3 class="font-inter_tight text-base font-semibold text-dark">
+                                <h3 class="font-inter_tight  text-sm lg:text-base font-semibold text-dark">
                                     Freelance
                                 </h3>
                                 <p class="text-sm font-inter_tight text-dark">
@@ -120,14 +120,14 @@ export default function Experiencia() {
                             </div>
                         </div>
                     </div>
-                    <div class="card w-1/3 mr-3">
-                        <div class="card__content text-center relative p-5 transition-transform duration-1000  h-[17rem]">
+                    <div class="card lg:w-1/3 mt-4 lg:mt-0 lg:mr-3">
+                        <div class="card__content text-center relative p-5 transition-transform duration-1000 h-[12rem] lg:h-[17rem]">
                             <div class="card__front absolute top-0 bottom-0 right-0 left-0 p-8 bg-pale flex flex-col items-center justify-center shadow-xl rounded-3xl">
                                 <FaDrawPolygon size={50} class="text-dark mb-2" />
-                                <h3 class="font-inter_tight text-2xl font-semibold mb-4 text-primary">
+                                <h3 class="font-inter_tight text-lg lg:text-xl font-semibold mb-4 text-primary lg:pr-6 lg:pl-6">
                                     Dibujante Técnico 2D y 3D
                                 </h3>
-                                <h3 class="font-inter_tight text-base font-semibold text-dark">
+                                <h3 class="font-inter_tight  text-sm lg:text-base font-semibold text-dark">
                                     Suite Home
                                 </h3>
                                 <p class="text-sm font-inter_tight text-dark">
@@ -141,14 +141,15 @@ export default function Experiencia() {
                             </div>
                         </div>
                     </div>
-                    <div class="card w-1/3">
-                        <div class="card__content text-center relative p-5 transition-transform duration-1000 h-[17rem]">
+                    <div class="card lg:w-1/3 mt-4 lg:mt-0 lg:mr-0">
+                        <div class="card__content text-center relative p-5  transition-transform duration-1000 h-[14rem] lg:h-[17rem]">
                             <div class="card__front absolute top-0 bottom-0 right-0 left-0 p-12 bg-pale flex flex-col items-center justify-center shadow-xl rounded-3xl">
                                 <FaRegBuilding size={49} class="text-dark mb-2" />
-                                <h3 class="font-inter_tight text-2xl font-semibold mb-4 text-primary">
+                                <h3 class="font-inter_tight text-lg lg:text-xl
+                                font-semibold mb-4 text-primary lg:pr-5 lg:pl-5">
                                     Dibujante Técnico 2D
                                 </h3>
-                                <h3 class="font-inter_tight text-base font-semibold text-dark">
+                                <h3 class="font-inter_tight  text-sm lg:text-base font-semibold text-dark">
                                     Eliseo Cabrera & Asoc
                                 </h3>
                                 <p class="text-sm font-inter_tight text-dark">
@@ -164,8 +165,8 @@ export default function Experiencia() {
                     </div>
                 </div>
             </div>
-            <div class="flex flex-col items-center container mx-auto mt-10">
-                <h1 class="text-dark font-black text-2xl font-inter_tight">
+            <div class="flex flex-col justify-center items-center container w-[500px] lg:w-[900px] mt-10">
+                <h1 class="text-dark font-black text-xl lg:text-2xl font-inter_tight">
                     HABILIDADES TÉCNICAS
                 </h1>
                 <div class="flex flex-row mt-6">
@@ -173,57 +174,45 @@ export default function Experiencia() {
                         priority
                         src={figma}
                         alt="Figma"
-                        height={55}
-                        class="mr-6"
+                        class="mr-6 h-[30px] lg:h-[55px]"
                     />
                     <Image
                         priority
                         src={illustrator}
                         alt="Illustrator"
-                        height={52}
-                        class="mr-6"
-                    />
-                    <Image
-                        priority
-                        src={photoshop}
-                        alt="photoshop"
-                        height={52}
-                        class="mr-6"
+                        class="mr-6 h-[28px] lg:h-[52px]"
                     />
                     <Image
                         priority
                         src={html}
                         alt="Html"
                         height={54}
-                        class="mr-6"
+                        class="mr-6 h-[29px] lg:h-[54px]"
                     />
                     <Image
                         priority
                         src={css}
                         alt="Css"
-                        height={54}
-                        class="mr-6"
+                        class="mr-6 h-[29px] lg:h-[54px]"
                     />
                     <Image
                         priority
                         src={javascript}
                         alt="Javascript"
-                        height={55}
-                        class="mr-6"
+                        class="mr-6 h-[30px] lg:h-[55px]"
                     />
                     <Image
                         priority
                         src={react}
                         alt="React"
                         height={58}
-                        class="mr-6"
+                        class="mr-6 h-[33px] lg:h-[58px]"
                     />
                     <Image
                         priority
                         src={next}
                         alt="Next.js"
-                        height={52}
-                        class="mr-6"
+                        class="mr-6 h-[28px] lg:h-[52px]"
                     />
                     <Image
                         priority
@@ -231,21 +220,20 @@ export default function Experiencia() {
                         alt="Tailwind"
                         height={50}
                         width={48}
-                        class="mr-6"
+                        class="mr-6 h-[26px] w-[24px] lg:h-[50px] lg:w-[48px]"
                     /> 
                     <Image
                         priority
                         src={bootstrap}
                         alt="Bootstrap"
-                        height={48}
-                        class="mr-6"
+                        class="mr-6 h-[26px] lg:h-[48px]"
                     />
                     <Image
                         priority
                         src={shopify}
                         alt="Shopify"
                         height={52}
-                        class="mr-6"
+                        class="mr-6 h-[29px] lg:h-[52px]"
                     /> 
                 </div>
             </div>

@@ -5,8 +5,8 @@ import { FaHome } from "react-icons/fa";
 export default function Navbar() {
     return (
         <>
-            <nav class="mt-6">
-                <ul class="flex justify-around items-center text-lg text-dark">
+            <nav class="mt-6 w-[250px] md:w-[400px]">
+                <ul class="flex justify-around items-center text-sm md:text-lg text-dark">
                     <li>
                         <Link class="navbar-icon-mt hover:text-primary" href="/" title="home">
                             <FaHome size={20}/>

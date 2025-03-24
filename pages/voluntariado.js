@@ -13,12 +13,12 @@ export default function Voluntariado() {
       <Head>
         <title>Gianella Meringolo |Voluntariado</title>
       </Head>
-      <div class="flex flex-col items-center justify-center container mx-auto mt-8">
-        <h1 class="text-dark font-black text-2xl font-inter_tight">
+      <div class="flex flex-col items-center justify-center container mt-8">
+        <h1 class="text-dark font-black text-xl lg:text-2xl font-inter_tight">
           VOLUNTARIADOS
         </h1>
-        <div class="mt-8 w-[1000px] flex flex-row">
-          <div class="card w-1/3 mr-3">
+        <div class="mt-8 w-[300px] md:w-[400px] lg:w-[1000px] flex flex-col lg:flex-row">
+          <div class="card lg:w-1/3 lg:mr-3">
             <div class="card__content text-center transition-transform duration-1000">
               <div class="card__front">
                 <Image
@@ -35,7 +35,7 @@ export default function Voluntariado() {
               </div>
             </div>
           </div>
-          <div class="card w-1/3 mr-3">
+          <div class="card mt-8 lg:w-1/3 lg:mr-3 lg:mt-0">
             <div class="card__content text-center transition-transform duration-1000">
               <div class="card__front">
                 <Image
@@ -53,7 +53,7 @@ export default function Voluntariado() {
               </div>
             </div>
           </div>
-          <div class="card w-1/3 mr-3">
+          <div class="card mt-8 lg:w-1/3 lg:mr-3 lg:mt-0">
             <div class="card__content text-center transition-transform duration-1000">
               <div class="card__front">
                 <Image

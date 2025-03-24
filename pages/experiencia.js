@@ -7,6 +7,7 @@ import { IoColorPaletteOutline } from "react-icons/io5";
 import { RxHome } from "react-icons/rx";
 import { FaDrawPolygon } from "react-icons/fa";
 import { FaRegBuilding } from "react-icons/fa";
+import { GoDownload } from "react-icons/go";
 import figma from "../public/svg2/figma.svg";
 import illustrator from "../public/svg2/illustrator.svg";
 import html from "../public/svg2/html.svg";
@@ -29,12 +30,13 @@ export default function Experiencia() {
                 <h1 class="text-dark font-black text-xl lg:text-2xl font-inter_tight">
                     EXPERIENCIA LABORAL
                 </h1>
-                <div class="mt-8">
-                    <a href='pdf/Gianella2025es.pdf' target="_blank" class="bg-purple text-pale pr-5 pl-5 pt-2 pb-2 shadow-xl rounded-3xl hover:bg-dark">Descargar cv</a>
+                <div class="bg-purple text-pale pr-5 pl-5 pt-2 pb-2 shadow-xl rounded-3xl hover:bg-dark mt-8 flex flex-row items-center">
+                <GoDownload />
+                    <a href='pdf/Gianella2025es.pdf' target="_blank" class="ml-1">Descargar cv</a>
                 </div>
                 <div class="mt-8 w-[350px] lg:w-[900px] flex flex-col lg:flex-row">
                     <div class="card lg:w-1/3 lg:mr-3">
-                        <div class="card__content text-center relative p-5 transition-transform duration-1000 h-[12rem] lg:h-[17rem]">
+                        <div class="card__content text-center relative p-5 transition-transform duration-1000 h-[14rem] lg:h-[17rem]">
                             <div class="card__front absolute top-0 bottom-0 right-0 left-0 p-8 bg-pale flex flex-col items-center justify-center shadow-xl rounded-3xl">
                                 <IoColorPaletteOutline size={50} class="text-dark mb-2" />
                                 <h3 class="font-inter_tight text-lg lg:text-xl text-primary font-semibold mb-4">
@@ -121,7 +123,7 @@ export default function Experiencia() {
                         </div>
                     </div>
                     <div class="card lg:w-1/3 mt-4 lg:mt-0 lg:mr-3">
-                        <div class="card__content text-center relative p-5 transition-transform duration-1000 h-[12rem] lg:h-[17rem]">
+                        <div class="card__content text-center relative p-5 transition-transform duration-1000 h-[14rem] lg:h-[17rem]">
                             <div class="card__front absolute top-0 bottom-0 right-0 left-0 p-8 bg-pale flex flex-col items-center justify-center shadow-xl rounded-3xl">
                                 <FaDrawPolygon size={50} class="text-dark mb-2" />
                                 <h3 class="font-inter_tight text-lg lg:text-xl font-semibold mb-4 text-primary lg:pr-6 lg:pl-6">

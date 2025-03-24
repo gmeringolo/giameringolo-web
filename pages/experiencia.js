@@ -34,7 +34,7 @@ export default function Experiencia() {
                 <GoDownload />
                     <a href='pdf/Gianella2025es.pdf' target="_blank" class="ml-1">Descargar cv</a>
                 </div>
-                <div class="mt-8 w-[300px] lg:w-[900px] flex flex-col lg:flex-row">
+                <div class="mt-8 w-[300px] md:w-[400px] lg:w-[900px] flex flex-col lg:flex-row">
                     <div class="card lg:w-1/3 lg:mr-3">
                         <div class="card__content text-center relative p-5 transition-transform duration-1000 h-[14rem] lg:h-[17rem]">
                             <div class="card__front absolute top-0 bottom-0 right-0 left-0 p-8 bg-pale flex flex-col items-center justify-center shadow-xl rounded-3xl">

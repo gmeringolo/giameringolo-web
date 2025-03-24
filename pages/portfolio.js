@@ -84,8 +84,8 @@ export default function Portfolio() {
             <h3 class="font-inter_tight font-bold text-xl md:w-1/3 pl-0 md:pl-2">SALVICA STORE</h3>
             <div class="md:w-2/3">
               <p class="font-inter_tight text-lg font-semibold mb-2">Proyecto de identidad de marca</p>
-              <div class="flex flex-row items-center justify-center p-1 bg-primary text-pale w-1/5 md:w-1/6 rounded-xl mb-3">
-                <p class="text-xs">Illustraitor</p>
+              <div class="flex flex-row items-center justify-center p-1 bg-primary text-pale w-1/4 md:w-1/6 rounded-xl mb-3">
+                <p class="text-xs">Illustrator</p>
               </div>
               <p class="font-inter_tight text-base">Este proyecto consistió en el desarrollo de la identidad de marca para la comercialización de sal del Himalaya. Se diseñaron todos los materiales gráficos, incluyendo el logo y las imágenes para redes sociales, con el objetivo de crear una presencia visual coherente y atractiva para la marca.</p>
               <Link href="https://www.behance.net/gallery/112077671/Diseno-de-marca-Salvica" target='_blank' class="text-sm text-primary flex flex-row items-center mr-1 mt-2">

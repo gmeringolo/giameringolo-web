@@ -30,7 +30,7 @@ export default function Portfolio() {
             <h3 class="font-inter_tight font-bold text-xl md:w-1/3 pl-0 md:pl-2">INFOPROD</h3>
             <div class="md:w-2/3">
               <p class="font-inter_tight text-lg font-semibold mb-1">Diseño UX/UI- Caso de estudio</p>
-              <div class="flex flex-row items-center justify-center p-1 bg-primary text-pale w-1/6 rounded-xl mb-3 text-xs">
+              <div class="flex flex-row items-center justify-center p-1 bg-primary text-pale w-1/5 md:w-1/6 rounded-xl mb-3 text-xs">
                 Figma
               </div>
               <p class="font-inter_tight text-base">Este proyecto busca facilitar el acceso a la información nutricional de alimentos envasados, permitiendo a los usuarios consultar datos a través del código de barras, nombre del producto o empresa. La aplicación también ofrece recetas caseras para elaborar el producto o ideas para usarlo como ingrediente, promoviendo un consumo más saludable y consciente.</p>
@@ -56,10 +56,10 @@ export default function Portfolio() {
             <div class="md:w-2/3">
               <p class="font-inter_tight text-lg font-semibold mb-2">Proyecto arquitectónico y Diseño web responsive</p>
               <div class="flex flex-row items-center">
-                <div class="flex flex-row items-center justify-center p-1 bg-primary text-pale w-1/6 rounded-xl mb-3 text-xs">
+                <div class="flex flex-row items-center justify-center p-1 bg-primary text-pale w-1/4 md:w-1/6 rounded-xl mb-3 text-xs">
                   Html/Css
                 </div>
-                <div class="flex flex-row items-center justify-center p-1 bg-primary text-pale w-1/6 rounded-xl mb-3 text-xs">
+                <div class="flex flex-row items-center justify-center p-1 bg-primary text-pale w-1/4 md:w-1/6 rounded-xl mb-3 text-xs">
                   React
                 </div>
               </div>
@@ -84,7 +84,7 @@ export default function Portfolio() {
             <h3 class="font-inter_tight font-bold text-xl md:w-1/3 pl-0 md:pl-2">SALVICA STORE</h3>
             <div class="md:w-2/3">
               <p class="font-inter_tight text-lg font-semibold mb-2">Proyecto de identidad de marca</p>
-              <div class="flex flex-row items-center justify-center p-1 bg-primary text-pale w-1/6 rounded-xl mb-3">
+              <div class="flex flex-row items-center justify-center p-1 bg-primary text-pale w-1/5 md:w-1/6 rounded-xl mb-3">
                 <p class="text-xs">Illustraitor</p>
               </div>
               <p class="font-inter_tight text-base">Este proyecto consistió en el desarrollo de la identidad de marca para la comercialización de sal del Himalaya. Se diseñaron todos los materiales gráficos, incluyendo el logo y las imágenes para redes sociales, con el objetivo de crear una presencia visual coherente y atractiva para la marca.</p>

@@ -22,13 +22,13 @@ export default function Portfolio() {
             <Image
               priority
               src={infoprod}
-              class="w-3/4"
+              class="md:w-3/4"
               alt="proyecto infoprod"
             />
           </Link>
-          <div class="flex flex-row pt-5 w-3/4">
-            <h3 class="font-inter_tight font-bold text-xl w-1/3 pl-2">INFOPROD</h3>
-            <div class="w-2/3">
+          <div class="flex flex-col items-baseline md:flex-row pt-5 md:w-3/4">
+            <h3 class="font-inter_tight font-bold text-xl md:w-1/3 pl-0 md:pl-2">INFOPROD</h3>
+            <div class="md:w-2/3">
               <p class="font-inter_tight text-lg font-semibold mb-1">Diseño UX/UI- Caso de estudio</p>
               <div class="flex flex-row items-center justify-center p-1 bg-primary text-pale w-1/6 rounded-xl mb-3 text-xs">
                 Figma
@@ -47,13 +47,13 @@ export default function Portfolio() {
             <Image
               priority
               src={posada}
-              class="w-3/4"
+              class="md:w-3/4"
               alt="proyecto Posada Horizonte"
             />
           </Link>
-          <div class="flex flex-row pt-5 w-3/4">
-            <h3 class="font-inter_tight font-bold text-xl w-1/3 pl-2">POSADA HORIZONTE</h3>
-            <div class="w-2/3">
+          <div class="flex flex-col items-baseline md:flex-row pt-5 md:w-3/4">
+            <h3 class="font-inter_tight font-bold text-xl md:w-1/3 pl-0 md:pl-2">POSADA HORIZONTE</h3>
+            <div class="md:w-2/3">
               <p class="font-inter_tight text-lg font-semibold mb-2">Proyecto arquitectónico y Diseño web responsive</p>
               <div class="flex flex-row items-center">
                 <div class="flex flex-row items-center justify-center p-1 bg-primary text-pale w-1/6 rounded-xl mb-3 text-xs">
@@ -76,13 +76,13 @@ export default function Portfolio() {
             <Image
               priority
               src={salvica}
-              class="w-3/4"
+              class="md:w-3/4"
               alt="proyecto Salvica"
             />
           </Link>
-          <div class="flex flex-row pt-5 w-3/4">
-            <h3 class="font-inter_tight font-bold text-xl w-1/3 pl-2">SALVICA STORE</h3>
-            <div class="w-2/3">
+          <div class="flex flex-col items-baseline md:flex-row pt-5 md:w-3/4">
+            <h3 class="font-inter_tight font-bold text-xl md:w-1/3 pl-0 md:pl-2">SALVICA STORE</h3>
+            <div class="md:w-2/3">
               <p class="font-inter_tight text-lg font-semibold mb-2">Proyecto de identidad de marca</p>
               <div class="flex flex-row items-center justify-center p-1 bg-primary text-pale w-1/6 rounded-xl mb-3">
                 <p class="text-xs">Illustraitor</p>

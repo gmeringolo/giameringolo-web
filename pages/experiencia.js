@@ -34,7 +34,7 @@ export default function Experiencia() {
                 <GoDownload />
                     <a href='pdf/Gianella2025es.pdf' target="_blank" class="ml-1">Descargar cv</a>
                 </div>
-                <div class="mt-8 w-[350px] lg:w-[900px] flex flex-col lg:flex-row">
+                <div class="mt-8 w-[300px] lg:w-[900px] flex flex-col lg:flex-row">
                     <div class="card lg:w-1/3 lg:mr-3">
                         <div class="card__content text-center relative p-5 transition-transform duration-1000 h-[14rem] lg:h-[17rem]">
                             <div class="card__front absolute top-0 bottom-0 right-0 left-0 p-8 bg-pale flex flex-col items-center justify-center shadow-xl rounded-3xl">
@@ -57,7 +57,7 @@ export default function Experiencia() {
                         </div>
                     </div>
                     <div class="card lg:w-1/3 mt-4 lg:mt-0 lg:mr-3">
-                        <div class="card__content text-center relative p-5 transition-transform duration-1000 h-[12rem] lg:h-[17rem]">
+                        <div class="card__content text-center relative p-5 transition-transform duration-1000 h-[14rem] lg:h-[17rem]">
                             <div class="card__front absolute top-0 bottom-0 right-0 left-0 p-8 bg-pale bg-pañe flex flex-col items-center justify-center shadow-xl rounded-3xl">
                                 <IoIosFootball size={50} class="text-dark mb-2" />
                                 <h3 class="font-inter_tight text-lg lg:text-xl
@@ -100,9 +100,9 @@ export default function Experiencia() {
                         </div>
                     </div>
                 </div>
-                <div class="mt-0 lg:mt-6 w-[350px] lg:w-[900px] flex flex-col lg:flex-row">
+                <div class="mt-0 lg:mt-6 w-[300px] lg:w-[900px] flex flex-col lg:flex-row">
                     <div class="card lg:w-1/3 mt-4 lg:mt-0 lg:mr-3">
-                        <div class="card__content text-center relative p-5 transition-transform duration-1000 h-[12rem] lg:h-[17rem]">
+                        <div class="card__content text-center relative p-5 transition-transform duration-1000 h-[14rem] lg:h-[17rem]">
                             <div class="card__front absolute top-0 bottom-0 right-0 left-0 p-8 bg-pale flex flex-col items-center justify-center shadow-xl rounded-3xl">
                                 <RxHome size={49} class="text-dark mb-2" />
                                 <h3 class="font-inter_tight text-lg lg:text-xl text-primary font-semibold mb-4">

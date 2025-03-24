@@ -7,16 +7,16 @@ import { IoColorPaletteOutline } from "react-icons/io5";
 import { RxHome } from "react-icons/rx";
 import { FaDrawPolygon } from "react-icons/fa";
 import { FaRegBuilding } from "react-icons/fa";
-import figma from "../public/svg/figma.svg";
-import illustrator from "../public/svg/illustrator.svg";
-import html from "../public/svg/html.svg";
-import css from "../public/svg/css.svg";
-import javascript from "../public/svg/javascript.svg";
-import react from "../public/svg/react.svg";
-import next from "../public/svg/next-js.svg";
-import tailwind from "../public/svg/tailwind.svg";
-import bootstrap from "../public/svg/bootstrap.svg";
-import shopify from "../public/svg/shopify.svg";
+import figma from "../public/svg2/figma.svg";
+import illustrator from "../public/svg2/illustrator.svg";
+import html from "../public/svg2/html.svg";
+import css from "../public/svg2/css.svg";
+import javascript from "../public/svg2/javascript.svg";
+import react from "../public/svg2/react.svg";
+import next from "../public/svg2/next-js.svg";
+import tailwind from "../public/svg2/tailwind.svg";
+import bootstrap from "../public/svg2/bootstrap.svg";
+import sass from "../public/svg2/sass.svg";
 
 
 export default function Experiencia() {
@@ -165,75 +165,72 @@ export default function Experiencia() {
                     </div>
                 </div>
             </div>
-            <div class="flex flex-col justify-center items-center container w-[500px] lg:w-[900px] mt-10">
+            <div class="flex flex-col justify-center items-center w-[350px] lg:w-[900px] mt-10">
                 <h1 class="text-dark font-black text-xl lg:text-2xl font-inter_tight">
                     HABILIDADES TÉCNICAS
                 </h1>
-                <div class="flex flex-row mt-6">
+                <div class="w-full lg:w-[500px] flex  justify-around items-center mt-6">
                     <Image
                         priority
                         src={figma}
                         alt="Figma"
-                        class="mr-6 h-[30px] lg:h-[55px]"
+                        class="w-1/6 lg:h[50px]"
                     />
                     <Image
                         priority
                         src={illustrator}
                         alt="Illustrator"
-                        class="mr-6 h-[28px] lg:h-[52px]"
+                        class="w-1/6"
                     />
                     <Image
                         priority
                         src={html}
                         alt="Html"
-                        height={54}
-                        class="mr-6 h-[29px] lg:h-[54px]"
+                        class="w-1/6"
                     />
                     <Image
                         priority
                         src={css}
                         alt="Css"
-                        class="mr-6 h-[29px] lg:h-[54px]"
+                        class="w-1/6"
                     />
                     <Image
                         priority
                         src={javascript}
                         alt="Javascript"
-                        class="mr-6 h-[30px] lg:h-[55px]"
+                        class="w-1/6"
                     />
+                </div>
+                <div class="w-full lg:w-[500px] flex justify-around items-center mt-4">
                     <Image
                         priority
                         src={react}
                         alt="React"
-                        height={58}
-                        class="mr-6 h-[33px] lg:h-[58px]"
+                        class="w-1/6"
                     />
                     <Image
                         priority
                         src={next}
                         alt="Next.js"
-                        class="mr-6 h-[28px] lg:h-[52px]"
+                        class="w-1/6"
                     />
                     <Image
                         priority
                         src={tailwind}
                         alt="Tailwind"
-                        height={50}
-                        width={48}
-                        class="mr-6 h-[26px] w-[24px] lg:h-[50px] lg:w-[48px]"
+                        class="w-1/6"
                     /> 
                     <Image
                         priority
                         src={bootstrap}
                         alt="Bootstrap"
-                        class="mr-6 h-[26px] lg:h-[48px]"
+                        class="w-1/6"
                     />
                     <Image
                         priority
-                        src={shopify}
-                        alt="Shopify"
-                        height={52}
-                        class="mr-6 h-[29px] lg:h-[52px]"
+                        src={sass}
+                        alt="sass"
+                        class="w-1/6"
                     /> 
                 </div>
             </div>

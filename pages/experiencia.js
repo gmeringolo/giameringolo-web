@@ -8,16 +8,16 @@ import { RxHome } from "react-icons/rx";
 import { FaDrawPolygon } from "react-icons/fa";
 import { FaRegBuilding } from "react-icons/fa";
 import { GoDownload } from "react-icons/go";
-import figma from "../public/svg2/figma.svg";
-import illustrator from "../public/svg2/illustrator.svg";
-import html from "../public/svg2/html.svg";
-import css from "../public/svg2/css.svg";
-import javascript from "../public/svg2/javascript.svg";
-import react from "../public/svg2/react.svg";
-import next from "../public/svg2/next-js.svg";
-import tailwind from "../public/svg2/tailwind.svg";
-import bootstrap from "../public/svg2/bootstrap.svg";
-import sass from "../public/svg2/sass.svg";
+import figma from "../public/svg/figma.svg";
+import illustrator from "../public/svg/illustrator.svg";
+import html from "../public/svg/html.svg";
+import css from "../public/svg/css.svg";
+import javascript from "../public/svg/javascript.svg";
+import react from "../public/svg/react.svg";
+import next from "../public/svg/next-js.svg";
+import tailwind from "../public/svg/tailwind.svg";
+import bootstrap from "../public/svg/bootstrap.svg";
+import sass from "../public/svg/sass.svg";
 
 
 export default function Experiencia() {

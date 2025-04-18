@@ -14,3 +14,13 @@ npm install --save-dev sass
 npm install react-icons --save
 Comentarios
 {/* Nested accordion */}
+
+## Libreria style component
+
+Styled Components es una librería que te permite escribir código CSS en JavaScript del mismo modo que ocurre con otras librerías como React Style, Radium o jsxstyle.
+
+El objetivo de los Styled Componentes es el de ser el sucesor de los clásicos módulos CSS. Mediante Styled Components podrás escribir código CSS plano en tus componentes sin preocuparte de variables JavaScript propias de la librería que utilices o de posibles colisiones.
+
+### `npm install styled-components`
+
+import styled from 'styled-components';

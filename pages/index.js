@@ -23,7 +23,7 @@ export default function Home() {
             class="rounded-full w-[210px] h-[210px] lg:w-[300px] lg:h-[300px]"
             alt="Foto Gianella Meringolo"
           />
-          <div class="ml-1 sm:ml-12 md:ml-16 lg:ml-12 mr-1 sm:mr-6 md:mr-10 lg:mr-2 ">
+          <div class="ml-0 sm:ml-12 md:ml-16 lg:ml-12 mr-1 sm:mr-6 md:mr-10 lg:mr-2 ">
             <p class="font-inter_tight text-dark text-xl font-bold mt-8 lg:mt-1">Hola</p>
             <p class="font-inter_tight text-dark text-base/7 mt-2">Mi nombre es Gianella Meringolo, soy Uruguaya y actualmente vivo en Montevideo. 
             <br/>En el 2022 culmine la Licenciatura en tecnologías de la información, además soy Diseñadora de interiores, estudié Arquitectura 8 años y en el 2021 me certifique en diseño UX/UI.

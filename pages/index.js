@@ -30,7 +30,7 @@ export default function Home() {
             </p>
             <p class="font-inter_tight text-dark text-base/7 mt-2">Desde que comence a trabajar en tecnología, desempeñe roles como Java developer, web ui developer, diseñadora de interfaz de usuario y Analista Genexus. Actualmente trabajo freelance como diseñadora gráfica y desarrollando páginas web.</p>
             <p class="font-inter_tight text-dark text-base/7  mt-2">Soy una persona organizada, responsable, detallista, proactiva, empática, comprometida, con buena comunicación, buena trabajando en equipo y con facilidad de aprendizaje y adaptación.</p>
-            <div class="flex flex-row items-center mt-10 lg:mt-6">
+            <div class="flex flex-row items-center mt-4 lg:mt-6">
               <Link href="/experiencia" class="group bg-pale p-4 shadow-xl rounded-3xl w-[90px] md:w-[120px] flex flex-col items-center mr-5 hover:bg-rose-50 ">
                 <MdPerson class="text-primary size-[30px] md:size-[40px]" />
                 <p class="font-inter_tight text-dark text-xs md:text-sm hover:text-primary hover:font-semibold">Experiencia</p>

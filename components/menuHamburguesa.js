@@ -10,7 +10,7 @@ export default function MenuHamburguesa() {
     };
 
     return (
-        <div className="relative ml-8 mt-3">
+        <div className="relative ml-8">
             <button
                 className="text-dark text-2xl md:hidden"
                 onClick={toggleMenu}

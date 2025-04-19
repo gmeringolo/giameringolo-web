@@ -30,9 +30,9 @@ export default function Layout({ children, home }) {
 
             <header class="flex flex-col items-center mt-4 lg:mt-8 mb-0">
                 {home ? (
-                    <div class="flex justify-around items-center">
-                        <div class="flex flex-col items-center">
-                            <h1 class="text-primary text-3xl md:text-6xl mb-1">{name}</h1>
+                    <div class="flex items-center">
+                        <div class="flex flex-col text-center">
+                            <h1 class="text-primary text-3xl md:text-6xl mb-0">{name}</h1>
                             <h2 class="mt-0 text-dark text-xs md:text-lg lg:text-xl font-inter_tight">{career}</h2>
                         </div>
                         <MenuHamburguesa/>
@@ -40,7 +40,7 @@ export default function Layout({ children, home }) {
                 ) : (
                     <>
                         <Link href="/">
-                            <h1 class="text-primary text-3xl md:text-6xl mb-1">{name}</h1>
+                            <h1 class="text-primary text-3xl md:text-6xl mb-0">{name}</h1>
                             <h2 class="mt-0 text-dark text-xs md:text-lg lg:text-xl font-inter_tight text-center">{career}</h2>
                         </Link>
                         <Navbar />

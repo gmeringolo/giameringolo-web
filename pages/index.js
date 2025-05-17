@@ -22,6 +22,9 @@ export default function Home() {
             src={foto}
             className="rounded-full w-[210px] h-[210px] lg:w-[300px] lg:h-[300px]"
             alt="Foto Gianella Meringolo"
+            width={300}
+            height={300}
+            sizes="(max-width: 768px) 210px, 300px"
           />
           <div className="ml-0 sm:ml-12 md:ml-16 lg:ml-12 mr-1 sm:mr-6 md:mr-10 lg:mr-2 ">
             <p className="font-inter_tight text-dark text-xl font-bold mt-8 lg:mt-1">Hola</p>
@@ -33,15 +36,15 @@ export default function Home() {
             <div className="flex flex-row items-center mt-4 lg:mt-6">
               <Link href="/experiencia" className="group bg-pale p-4 shadow-xl rounded-3xl w-[90px] md:w-[120px] flex flex-col items-center mr-5 hover:bg-rose-50 ">
                 <MdPerson className="text-primary size-[30px] md:size-[40px]" />
-                <p className="font-inter_tight text-dark text-xs md:text-sm hover:text-primary hover:font-semibold">Experiencia</p>
+                <p className="font-inter_tight text-dark text-xs md:text-sm">Experiencia</p>
               </Link>
               <Link href="/portfolio" className="group bg-pale p-4 shadow-xl rounded-3xl w-[90px] md:w-[120px] flex flex-col items-center mr-5 hover:bg-rose-50 ">
                 <MdComputer className="text-primary size-[30px] md:size-[40px]" />
-                <p className="font-inter_tight text-dark text-xs md:text-sm hover:text-primary hover:font-semibold">Portfolio</p>
+                <p className="font-inter_tight text-dark text-xs md:text-sm">Portfolio</p>
               </Link>
               <Link href="/voluntariado" className="group bg-pale hover:bg-rose-50 p-4 shadow-xl rounded-3xl w-[90px] md:w-[120px] flex flex-col items-center">
                 <PiHandHeartBold className="text-primary size-[30px] md:size-[40px]" />
-                <p className="font-inter_tight text-dark text-xs md:text-sm hover:text-primary hover:font-semibold">Voluntariado</p>
+                <p className="font-inter_tight text-dark text-xs md:text-sm">Voluntariado</p>
               </Link>
             </div>
           </div>

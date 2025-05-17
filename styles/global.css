@@ -1,0 +1,156 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Preload de fuentes críticas */
+@font-face {
+  font-family: "Mirza";
+  src: url("../public/fonts/Mirza-Regular.ttf");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter_Tight";
+  src: url("../public/fonts/InterTight-Light.ttf");
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+}
+
+:root {
+  --primary: #8f46a3;
+  --purple: #8D56A9;
+  --rosado: #D392C9;
+  --dark: #434343;
+  --gray: #b2b2b2;
+  --white: #ffffff;
+
+  /* Spacing */
+  --spacer-0: 0;
+  --spacer-1: 0.25rem;  /* 4px */
+  --spacer-2: 0.5rem;   /* 8px */
+  --spacer-3: 0.75rem;  /* 12px */
+  --spacer-4: 1rem;     /* 16px */
+  --spacer-5: 1.25rem;  /* 20px */
+  --spacer-6: 1.5rem;   /* 24px */
+  --spacer-7: 2rem;     /* 32px */
+  --spacer-8: 3rem;     /* 48px */
+  --spacer-9: 4rem;     /* 64px */
+  --spacer-10: 5rem;    /* 80px */
+  --spacer-11: 6rem;    /* 96px */
+  --spacer-12: 7.5rem;  /* 120px */
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--white);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: "Inter_Tight";
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: mirza;
+  font-size: 50px;
+}
+
+h3 {
+  font-family: kite_one;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Navbar */
+nav {
+  font-family: var(--font-inter-tight);
+  width: 400px;
+}
+
+/* Estilos para el círculo en el navbar */
+.nav-link {
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  z-index: 1;
+}
+
+.nav-link.active::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  background-color: var(--primary);
+  opacity: 0.2;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+/* Animación tarjetas */
+.card { 
+  perspective: 800px;
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+.card__content {
+  transform-style: preserve-3d;
+  will-change: transform;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card:hover .card__content {
+  transform: rotateY(.5turn);
+}
+
+.card__front,
+.card__back { 
+  backface-visibility: hidden;
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+.card__back { 
+  transform: rotateY(.5turn);
+}
+
+/* Responsive */
+@media (max-width: 1002px) {
+  /* Estilos para tablet */
+}
+
+@media (max-width: 800px) {
+  /* Estilos para tablet2 */
+}
+
+@media (max-width: 768px) {
+  /* Estilos para mobil1 */
+}
+
+@media (max-width: 650px) {
+  /* Estilos para mobil2 */
+} 

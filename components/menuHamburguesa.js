@@ -22,22 +22,17 @@ export default function MenuHamburguesa() {
                 <div className="absolute top-12 right-0 bg-white shadow-lg p-4 rounded-lg w-48">
                     <ul className="flex flex-col items-start">
                         <li>
-                            <Link className="navbar-icon-mt hover:text-primary" href="/" title="home">
-                               Home
-                            </Link>
-                        </li>
-                        <li>
-                            <Link className="hover:text-primary hover:font-semibold  focus:text-primary" href="/experiencia" title="experiencia">
+                            <Link className="hover:text-primary" href="/experiencia" title="experiencia">
                                 Experiencia
                             </Link>
                         </li>
                         <li>
-                            <Link className="hover:text-primary hover:font-semibold" href="/portfolio" title="portfolio">
+                            <Link className="hover:text-primary" href="/portfolio" title="portfolio">
                                 Portfolio
                             </Link>
                         </li>
                         <li>
-                            <Link className="hover:text-primary hover:font-semibold" href="/voluntariado" title="voluntariado">
+                            <Link className="hover:text-primary" href="/voluntariado" title="voluntariado">
                                 Voluntariado
                             </Link>
                         </li>

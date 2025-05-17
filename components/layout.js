@@ -1,20 +1,19 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import { memo } from 'react';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import MenuHamburguesa from './menuHamburguesa';
 
-
-
 const name = 'GIANELLA MERINGOLO';
 const career = 'Licenciada en TI- Diseñadora UX/UI';
-export const siteTitle = 'Gianella Meringolo'
+export const siteTitle = 'Gianella Meringolo';
 
-export default function Layout({ children, home }) {
+const Layout = memo(({ children, home }) => {
     return (
         <>
             <Head>
-                <meta charset="UTF-8" />
+                <meta charSet="UTF-8" />
                 <link rel='icon' href='/favicon.ico' />
                 <meta
                     name="description"
@@ -50,6 +49,9 @@ export default function Layout({ children, home }) {
             <main className="max-w-screen-lg ml-4 mr-3 lg:ml-16 lg:mr-16">{children}</main>
             <Footer />
         </>
-
     );
-}
+});
+
+Layout.displayName = 'Layout';
+
+export default Layout;

@@ -1,28 +1,52 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { FaHome } from "react-icons/fa";
+import { memo } from 'react';
 
-export default function Navbar() {
+const Navbar = memo(() => {
+    const router = useRouter();
+
     return (
         <>
-            <nav class="mt-6 w-[320px] md:w-[400px]">
-                <ul class="flex justify-around items-center text-md md:text-lg text-dark">
+            <nav className="mt-6 w-[375px] md:w-[400px]">
+                <ul className="flex justify-around items-center text-md md:text-lg text-dark">
                     <li>
-                        <Link class="navbar-icon-mt hover:text-primary" href="/" title="home">
+                        <Link 
+                            className={`navbar-icon-mt nav-link ${router.pathname === '/' ? 'active' : ''}`} 
+                            href="/" 
+                            title="home"
+                            prefetch={true}
+                        >
                             <FaHome size={20}/>
                         </Link>
                     </li>
                     <li>
-                        <Link class="hover:text-primary hover:font-semibold  focus:text-primary" href="/experiencia" title="experiencia">
+                        <Link 
+                            className={`nav-link ${router.pathname === '/experiencia' ? 'active' : ''}`} 
+                            href="/experiencia" 
+                            title="experiencia"
+                            prefetch={true}
+                        >
                             Experiencia
                         </Link>
                     </li>
                     <li>
-                        <Link class="hover:text-primary hover:font-semibold" href="/portfolio" title="portfolio">
+                        <Link 
+                            className={`nav-link ${router.pathname === '/portfolio' ? 'active' : ''}`} 
+                            href="/portfolio" 
+                            title="portfolio"
+                            prefetch={true}
+                        >
                             Portfolio
                         </Link>
                     </li>
                     <li>
-                        <Link class="hover:text-primary hover:font-semibold" href="/voluntariado" title="voluntariado">
+                        <Link 
+                            className={`nav-link ${router.pathname === '/voluntariado' ? 'active' : ''}`} 
+                            href="/voluntariado" 
+                            title="voluntariado"
+                            prefetch={true}
+                        >
                             Voluntariado
                         </Link>
                     </li>
@@ -30,4 +54,8 @@ export default function Navbar() {
             </nav>
         </>
     );
-}
+});
+
+Navbar.displayName = 'Navbar';
+
+export default Navbar;

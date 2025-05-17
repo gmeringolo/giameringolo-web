@@ -30,9 +30,9 @@ export default function Experiencia() {
                 <h1 className="text-dark font-black text-xl lg:text-2xl font-inter_tight">
                     EXPERIENCIA LABORAL
                 </h1>
-                <div className="bg-purple text-pale pr-5 pl-5 pt-2 pb-2 shadow-xl rounded-3xl hover:bg-dark mt-8 flex flex-row items-center">
+                <div className="bg-purple text-pale pr-5 pl-5 pt-2 pb-2 shadow-xl rounded-3xl hover:bg-primary  mt-8 flex flex-row items-center">
                 <GoDownload />
-                    <a href='pdf/Gianella2025es.pdf' target="_blank" className="ml-1">Descargar cv</a>
+                    <a href='pdf/Gianella2025es.pdf' target="_blank" className="ml-1 text-pale rounded-lg px-2">Descargar cv</a>
                 </div>
                 <div className="mt-8 w-[300px] md:w-[400px] lg:w-[900px] flex flex-col lg:flex-row">
                     <div className="card lg:w-1/3 lg:mr-3">
@@ -173,65 +173,75 @@ export default function Experiencia() {
                 </h1>
                 <div className="w-full lg:w-[500px] flex  justify-around items-center mt-6">
                     <Image
-                        priority
                         src={figma}
                         alt="Figma"
+                        width={50}
+                        height={50}
                         className="w-1/6 lg:h[50px]"
                     />
                     <Image
-                        priority
                         src={illustrator}
                         alt="Illustrator"
+                        width={50}
+                        height={50}
                         className="w-1/6"
                     />
                     <Image
-                        priority
                         src={html}
                         alt="Html"
+                        width={50}
+                        height={50}
                         className="w-1/6"
                     />
                     <Image
-                        priority
                         src={css}
                         alt="Css"
+                        width={50}
+                        height={50}
                         className="w-1/6"
                     />
                     <Image
-                        priority
                         src={javascript}
                         alt="Javascript"
+                        width={50}
+                        height={50}
                         className="w-1/6"
                     />
                 </div>
                 <div className="w-full lg:w-[500px] flex justify-around items-center mt-4">
                     <Image
-                        priority
                         src={react}
                         alt="React"
+                        width={50}
+                        height={50}
                         className="w-1/6"
                     />
                     <Image
-                        priority
                         src={next}
                         alt="Next.js"
+                        width={50}
+                        height={50}
                         className="w-1/6"
                     />
                     <Image
-                        priority
                         src={tailwind}
                         alt="Tailwind"
+                        width={50}
+                        height={50}
                         className="w-1/6"
                     /> 
                     <Image
-                        priority
                         src={bootstrap}
                         alt="Bootstrap"
+                        width={50}
+                        height={50}
                         className="w-1/6"
                     />
                     <Image
-                        priority
                         src={sass}
                         alt="sass"
+                        width={50}
+                        height={50}
                         className="w-1/6"
                     /> 
                 </div>

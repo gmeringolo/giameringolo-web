@@ -24,6 +24,8 @@ export default function Portfolio() {
               src={infoprod}
               className="md:w-3/4"
               alt="proyecto infoprod"
+              width={1200}
+              height={675}
             />
           </Link>
           <div className="flex flex-col items-baseline md:flex-row pt-5 md:w-3/4">

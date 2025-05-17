@@ -1,4 +1,3 @@
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -18,17 +17,10 @@ module.exports = {
       colors: {
         'primary': '#8f46a3',
         'purple': '#8D56A9',
-        'rosa': '#F4E7F2',
+        'rosado': '#D392C9',
         'white': '#ffffff',
         'pale': '#F3F3F3',
-        'dark': '#434343',
-        'globant': '#8FBE39',
-        'abstracta': '#754BDE',
-        'liga': '#75BDCB',
-        'liga2': '#446D72',
-        'cad': '#CB757A',
-        'suite': '#D0852A',
-        'estudio': '#3C5C87'
+        'dark': '#434343'
       },
     },
   },

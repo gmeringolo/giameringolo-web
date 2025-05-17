@@ -5,8 +5,6 @@ import grupoIot from '../public/img/grupoIot.png';
 import mujeresIT from '../public/img/mujeresIT.png';
 import rsg from '../public/img/rsg.png';
 
-
-
 export default function Voluntariado() {
   return (
     <Layout>
@@ -22,12 +20,13 @@ export default function Voluntariado() {
             <div className="card__content text-center transition-transform duration-1000">
               <div className="card__front">
                 <Image
-                  priority
                   src={grupoIot}
-                  className="w-full rounded-3xl"
                   alt="Grupo Iot"
+                  width={300}
+                  height={200}
+                  className="rounded-3xl"
                 />
-                <div className="text font-inter_tight text-base mb-1 bg-pale w-full rounded-3xl p-2"><strong>Rescatista de gatos Grupo Iot</strong><br />May 2010 - Presente</div>
+                <div className="absolute top-[87%] left-1/2 -translate-x-1/2 -translate-y-1/2 bg-black/50 text-dark font-inter_tight text-base mb-1 bg-pale w-full rounded-3xl p-2"><strong>Rescatista de gatos Grupo Iot</strong><br />May 2010 - Presente</div>
               </div>
               <div className="card__back absolute top-0 bottom-0 right-0 left-0 p-8 bg-primary text-white flex flex-col items-center justify-center shadow-xl rounded-3xl">
                 <p className="text-sm font-inter_tight">En 2010 me uní a este grupo de voluntarios, con el objetivo de cambiar la triste realidad en la que viven los gatos callejeros y mejorar su calidad de vida esterilizándolos, alimentándolos y buscándoles nuevos hogares.
@@ -39,12 +38,13 @@ export default function Voluntariado() {
             <div className="card__content text-center transition-transform duration-1000">
               <div className="card__front">
                 <Image
-                  priority
                   src={mujeresIT}
-                  className="w-full rounded-3xl"
-                  alt=""
+                  alt="MujeresIT"
+                  width={300}
+                  height={200}
+                  className="rounded-3xl"
                 />
-                <div className="text font-inter_tight text-base mb-1 bg-pale w-full rounded-3xl p-2"><strong>Colaboradora MujeresIT</strong><br />Feb 2021 - Presente</div>
+                <div className="absolute top-[87%] left-1/2 -translate-x-1/2 -translate-y-1/2 bg-black/50 text-dark font-inter_tight text-base mb-1 bg-pale w-full rounded-3xl p-2"><strong>Colaboradora MujeresIT</strong><br />Feb 2021 - Presente</div>
               </div>
               <div className="card__back absolute top-0 bottom-0 right-0 left-0 p-8 bg-primary text-white flex flex-col items-center justify-center shadow-xl rounded-3xl">
                 <p className="text-sm font-inter_tight">En 2021 me uní a esta diversa comunidad de mujeres como colaboradora.
@@ -57,12 +57,13 @@ export default function Voluntariado() {
             <div className="card__content text-center transition-transform duration-1000">
               <div className="card__front">
                 <Image
-                  priority
                   src={rsg}
-                  className="w-full rounded-3xl"
-                  alt=""
+                  alt="RSG"
+                  width={300}
+                  height={200}
+                  className="rounded-3xl"
                 />
-                <div className="text font-inter_tight text-base mb-1 bg-pale w-full rounded-3xl p-2"><strong>Colaboratora - RSG (Globant)</strong><br />Jan 2022 - Abr 2024</div>
+                <div className="absolute top-[87%] left-1/2 -translate-x-1/2 -translate-y-1/2 bg-black/50 text-dark font-inter_tight text-base mb-1 bg-pale w-full rounded-3xl p-2"><strong>Colaboratora - RSG (Globant)</strong><br />Jan 2022 - Abr 2024</div>
               </div>
               <div className="card__back absolute top-0 bottom-0 right-0 left-0 p-8 bg-primary text-white flex flex-col items-center justify-center shadow-xl rounded-3xl">
                 <p className="text-sm font-inter_tight">Me uní a este grupo de voluntarios que ayudan a la comunidad en diferentes iniciativas que surgen a lo largo del año. Realizamos campañas de donación de sangre, recolección de alimentos para canastas familiares, donación de juguetes a instituciones infantiles, etc.

@@ -18,6 +18,7 @@ import next from "../public/svg/next-js.svg";
 import tailwind from "../public/svg/tailwind.svg";
 import bootstrap from "../public/svg/bootstrap.svg";
 import sass from "../public/svg/sass.svg";
+import wordpress from "../public/svg/wordpress.svg";
 
 
 export default function Experiencia() {
@@ -32,7 +33,7 @@ export default function Experiencia() {
                 </h1>
                 <div className="bg-purple text-pale pr-5 pl-5 pt-2 pb-2 shadow-xl rounded-3xl hover:bg-primary  mt-8 flex flex-row items-center">
                 <GoDownload />
-                    <a href='pdf/Gianella2025es.pdf' target="_blank" className="ml-1 text-pale rounded-lg px-2">Descargar cv</a>
+                    <a href='pdf/Gianella2025.pdf' target="_blank" className="ml-1 text-pale rounded-lg px-2">Descargar cv</a>
                 </div>
                 <div className="mt-8 w-[300px] md:w-[400px] lg:w-[900px] flex flex-col lg:flex-row">
                     <div className="card lg:w-1/3 lg:mr-3">
@@ -100,8 +101,8 @@ export default function Experiencia() {
                         </div>
                     </div>
                 </div>
-                <div className="mt-0 lg:mt-6 w-[300px] lg:w-[900px] flex flex-col lg:flex-row">
-                    <div className="card lg:w-1/3 mt-4 lg:mt-0 lg:mr-3">
+                <div className="mt-4 w-[300px] md:w-[400px] lg:w-[900px] flex flex-col lg:flex-row">
+                    <div className="card lg:w-1/3 lg:mr-3">
                         <div className="card__content text-center relative p-5 transition-transform duration-1000 h-[14rem] lg:h-[17rem]">
                             <div className="card__front absolute top-0 bottom-0 right-0 left-0 p-8 bg-pale flex flex-col items-center justify-center shadow-xl rounded-3xl">
                                 <RxHome size={49} className="text-dark mb-2" />
@@ -217,19 +218,19 @@ export default function Experiencia() {
                         className="w-1/6"
                     />
                     <Image
+                        src={wordpress}
+                        alt="WordPress"
+                        width={50}
+                        height={50}
+                        className="w-13"
+                    /> 
+                    <Image
                         src={next}
                         alt="Next.js"
                         width={50}
                         height={50}
                         className="w-1/6"
                     />
-                    <Image
-                        src={tailwind}
-                        alt="Tailwind"
-                        width={50}
-                        height={50}
-                        className="w-1/6"
-                    /> 
                     <Image
                         src={bootstrap}
                         alt="Bootstrap"
@@ -238,8 +239,8 @@ export default function Experiencia() {
                         className="w-1/6"
                     />
                     <Image
-                        src={sass}
-                        alt="sass"
+                        src={tailwind}
+                        alt="Tailwind"
                         width={50}
                         height={50}
                         className="w-1/6"

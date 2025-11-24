@@ -81,6 +81,10 @@ img {
   display: block;
 }
 
+.w-13{
+  width: 13%;
+}
+
 /* Navbar */
 nav {
   font-family: var(--font-inter-tight);

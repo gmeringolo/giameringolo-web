@@ -33,7 +33,7 @@ export default function Experiencia() {
                 </h1>
                 <div className="bg-purple text-pale pr-5 pl-5 pt-2 pb-2 shadow-xl rounded-3xl hover:bg-primary  mt-8 flex flex-row items-center">
                 <GoDownload />
-                    <a href='pdf/Gianella2025.pdf' target="_blank" className="ml-1 text-pale rounded-lg px-2">Descargar cv</a>
+                    <a href='pdf/Gianella2026.pdf' target="_blank" className="ml-1 text-pale rounded-lg px-2">Descargar cv</a>
                 </div>
                 <div className="mt-8 w-[300px] md:w-[400px] lg:w-[900px] flex flex-col lg:flex-row">
                     <div className="card lg:w-1/3 lg:mr-3">
